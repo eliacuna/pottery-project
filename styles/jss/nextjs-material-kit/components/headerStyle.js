@@ -22,7 +22,7 @@ const headerStyle = {
     marginBottom: "20px",
     color: "#555",
     width: "100%",
-    backgroundColor: "#fff",
+    backgroundColor: "#000000",
     boxShadow:
       "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)",
     transition: "all 150ms ease 0s",
@@ -71,7 +71,7 @@ const headerStyle = {
   },
   primary: {
     backgroundColor: primaryColor,
-    color: "#FFFFFF",
+    color: "#000000",
     boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px ${hexToRGBAlpha(
       primaryColor,
       0.46
@@ -79,7 +79,7 @@ const headerStyle = {
   },
   info: {
     backgroundColor: infoColor,
-    color: "#FFFFFF",
+    color: "#000000",
     boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px ${hexToRGBAlpha(
       infoColor,
       0.46
@@ -87,7 +87,7 @@ const headerStyle = {
   },
   success: {
     backgroundColor: successColor,
-    color: "#FFFFFF",
+    color: "#000",
     boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px ${hexToRGBAlpha(
       successColor,
       0.46
@@ -95,7 +95,7 @@ const headerStyle = {
   },
   warning: {
     backgroundColor: warningColor,
-    color: "#FFFFFF",
+    color: "#000",
     boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px ${hexToRGBAlpha(
       warningColor,
       0.46
@@ -103,7 +103,7 @@ const headerStyle = {
   },
   danger: {
     backgroundColor: dangerColor,
-    color: "#FFFFFF",
+    color: "#000",
     boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px ${hexToRGBAlpha(
       dangerColor,
       0.46
@@ -111,7 +111,7 @@ const headerStyle = {
   },
   rose: {
     backgroundColor: roseColor,
-    color: "#FFFFFF",
+    color: "#000",
     boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px ${hexToRGBAlpha(
       roseColor,
       0.46
@@ -133,7 +133,7 @@ const headerStyle = {
     border: "0",
     padding: "0.625rem 0",
     marginBottom: "20px",
-    color: "#555",
+    color: "#000",
     backgroundColor: "#fff !important",
     boxShadow:
       "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)",

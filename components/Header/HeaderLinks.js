@@ -47,6 +47,12 @@ export default function HeaderLinks(props) {
             >
               Timeline Map
             </a>,
+             <Link href="/makingPots">
+             <a className={classes.dropdownLink}>Making Pots</a>
+           </Link>,
+            <Link href="/games">
+            <a className={classes.dropdownLink}>Games</a>
+          </Link>,
           ]}
         />
       </ListItem>

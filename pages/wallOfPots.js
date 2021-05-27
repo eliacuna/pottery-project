@@ -23,6 +23,14 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "styles/jss/nextjs-material-kit/pages/wallOfPots.js";
 import { Grid } from "@material-ui/core";
 
+// Sections for this page
+import IntroSection1 from "pages-sections/WallOfPots-Sections/IntroSection1.js";
+import IntroSection2 from "pages-sections/WallOfPots-Sections/IntroSection2.js";
+import IntroSection3 from "pages-sections/WallOfPots-Sections/IntroSection3.js";
+import IntroSection4 from "pages-sections/WallOfPots-Sections/IntroSection4.js";
+import IntroSection5 from "pages-sections/WallOfPots-Sections/IntroSection5.js";
+import IntroSection6 from "pages-sections/WallOfPots-Sections/IntroSection6.js";
+
 const useStyles = makeStyles(styles);
 
 export default function ProfilePage(props) {
@@ -38,7 +46,7 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand="Wall of Pots"
+        brand="Arizona State Museum"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -58,8 +66,10 @@ export default function ProfilePage(props) {
                       tabButton: "Column 1",
                       tabIcon: Filter1Icon,
                       tabContent: (
+                      <div>
+                        <IntroSection1 />
                         <GridContainer justify="center">
-                          <GridItem xs={6} sm={12} md={3}>
+                          <GridItem xs={6} sm={3} md={3}>
                             <img
                               alt="..."
                               src="https://drive.google.com/uc?export=view&id=1wVbowfrv1qMgJXh9r5z0WPGbs3ECLTj2"
@@ -81,7 +91,7 @@ export default function ProfilePage(props) {
                               className={navImageClasses}
                             />
                           </GridItem>
-                        <GridItem xs={6} sm={12} md={3}>
+                        <GridItem xs={6} sm={3} md={3}>
                             <img
                               alt="..."
                               src="https://drive.google.com/uc?export=view&id=1zpG-BmhStvXZN6kOeN5K_gNCj0hut6d6"
@@ -103,7 +113,7 @@ export default function ProfilePage(props) {
                               className={navImageClasses}
                             />
                           </GridItem>
-                          <GridItem xs={6} sm={12} md={3}>
+                          <GridItem xs={6} sm={3} md={3}>
                           <img
                             alt="..."
                             src="https://drive.google.com/uc?export=view&id=1lMbSXCRdsM6amx7wEhtqpeutvdPsT2sK"
@@ -125,7 +135,7 @@ export default function ProfilePage(props) {
                             className={navImageClasses}
                           />
                         </GridItem>
-                        <GridItem xs={6} sm={12} md={3}>
+                        <GridItem xs={6} sm={3} md={3}>
                             <img
                               alt="..."
                               src="https://drive.google.com/uc?export=view&id=11NRn_z_JOtP16LQUhlYAFlT39WxwLbsg"
@@ -148,12 +158,15 @@ export default function ProfilePage(props) {
                             />
                           </GridItem>
                       </GridContainer>
+                      </div>
                       ),
                     },
                     {
                       tabButton: "Column 2",
                       tabIcon: Filter2Icon,
                       tabContent: (
+                        <div>
+                        <IntroSection2 />
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={3}>
                             <img
@@ -227,12 +240,15 @@ export default function ProfilePage(props) {
                           />
                         </GridItem>
                         </GridContainer>
+                      </div>
                       ),
                     },
                     {
                       tabButton: "Column 3",
                       tabIcon: Filter3Icon,
                       tabContent: (
+                      <div>
+                        <IntroSection3 />
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={3}>
                             <img
@@ -318,6 +334,7 @@ export default function ProfilePage(props) {
                             />
                           </GridItem>
                         </GridContainer>
+                      </div>
                       ),
                     },
                     
@@ -325,6 +342,8 @@ export default function ProfilePage(props) {
                       tabButton: "Column 4",
                       tabIcon: Filter4Icon,
                       tabContent: (
+                      <div>
+                        <IntroSection4 />
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={3}>
                             <img
@@ -410,12 +429,15 @@ export default function ProfilePage(props) {
                             />
                           </GridItem>
                         </GridContainer>
+                      </div>
                       ),
                     },
                     {
                       tabButton: "Column 5",
                       tabIcon: Filter5Icon,
                       tabContent: (
+                      <div>
+                        <IntroSection5 />
                         <GridContainer justify="center">
                          <GridItem xs={12} sm={12} md={3}>
                             <img
@@ -501,12 +523,15 @@ export default function ProfilePage(props) {
                             />
                           </GridItem>
                         </GridContainer>
+                      </div>
                       ),
                     },
                     {
                       tabButton: "Column 6",
                       tabIcon: Filter6Icon,
                       tabContent: (
+                      <div>
+                        <IntroSection6 />
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={3}>
                             <img
@@ -592,6 +617,7 @@ export default function ProfilePage(props) {
                             />
                           </GridItem>
                         </GridContainer>
+                      </div>
                       ),
                     },
                   ]}
