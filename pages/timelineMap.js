@@ -11,22 +11,22 @@ import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
-import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import MapSection from "pages-sections/TimelineMap-Sections/MapSection.js";
+import SWNativePottery from "pages-sections/TimelineMap-Sections/SWNativePottery.js";
+import Continuity from "pages-sections/TimelineMap-Sections/Continuity.js";
+import DeepRoots from "pages-sections/TimelineMap-Sections/DeepRoots.js";
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function LandingPage(props) {
+export default function TimelineMap(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -43,33 +43,22 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/exhibit.jpeg">
+      <Parallax small filter responsive image="/img/exhibit.jpeg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>The Pottery Project</h1>
-              <h4>
-                Welcome to the Arizona State Museum's online experience for the
-                Pottery Project exhibit.
-              </h4>
+              <h1 className={classes.title}>Timeline Map</h1>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Watch video
-              </Button>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
+          <SWNativePottery /> 
+          <MapSection />
+          <DeepRoots />
+          <Continuity />
         </div>
       </div>
       <Footer />

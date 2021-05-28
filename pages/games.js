@@ -19,9 +19,6 @@ import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
 import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
-import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
-
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
@@ -47,22 +44,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>The Pottery Project</h1>
-              <h4>
-                Welcome to the Arizona State Museum's online experience for the
-                Pottery Project exhibit.
-              </h4>
-              <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Watch video
-              </Button>
+              <h1 className={classes.title}>Games</h1>
             </GridItem>
           </GridContainer>
         </div>

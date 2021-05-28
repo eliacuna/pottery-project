@@ -1,8 +1,11 @@
 import React from "react";
+
 // nodejs library that concatenates classes
 import classNames from "classnames";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+
 // @material-ui/icons
 import Filter1Icon from '@material-ui/icons/Filter1';
 import Filter2Icon from '@material-ui/icons/Filter2';
@@ -10,6 +13,7 @@ import Filter3Icon from '@material-ui/icons/Filter3';
 import Filter4Icon from '@material-ui/icons/Filter4';
 import Filter5Icon from '@material-ui/icons/Filter5';
 import Filter6Icon from '@material-ui/icons/Filter6';
+
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
@@ -19,9 +23,14 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
+import Slide from "@material-ui/core/Slide";
+import IconButton from "@material-ui/core/IconButton";
+import Dialog from "@material-ui/core/Dialog";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogActions from "@material-ui/core/DialogActions";
 
 import styles from "styles/jss/nextjs-material-kit/pages/wallOfPots.js";
-import { Grid } from "@material-ui/core";
 
 // Sections for this page
 import IntroSection1 from "pages-sections/WallOfPots-Sections/IntroSection1.js";
@@ -30,10 +39,26 @@ import IntroSection3 from "pages-sections/WallOfPots-Sections/IntroSection3.js";
 import IntroSection4 from "pages-sections/WallOfPots-Sections/IntroSection4.js";
 import IntroSection5 from "pages-sections/WallOfPots-Sections/IntroSection5.js";
 import IntroSection6 from "pages-sections/WallOfPots-Sections/IntroSection6.js";
+import ModelViewer   from "pages-sections/WallOfPots-Sections/ModelViewer.js";
 
 const useStyles = makeStyles(styles);
 
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="down" ref={ref} {...props} />;
+});
+
+Transition.displayName = "Transition";
+
+const displayInfo = () => {
+  <GridContainer>
+    <GridItem xs={12} sm={12} md={6} lg={4}>
+      <Modal />
+    </GridItem>
+  </GridContainer>
+}
+
 export default function ProfilePage(props) {
+  const [classicModal, setClassicModal] = React.useState(false);
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -50,13 +75,69 @@ export default function ProfilePage(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 200,
+          height: 400,
           color: "white",
         }}
         {...rest}
       />
-      <Parallax small filter image="/img/exhibit.jpeg" />
-            <GridContainer justify="center">
+      <Parallax small filter responsive image="/img/exhibit.jpeg">
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6}>
+              <h1 className={classes.title} style={{zIndex: 1}}>Wall of Pots</h1>
+              <br />
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
+      <GridContainer>
+        <GridItem xs={12} sm={12} md={6} lg={4}>
+        <Dialog
+            classes={{
+            root: classes.center,
+            paper: classes.modal,
+            }}
+            open={classicModal}
+            TransitionComponent={Transition}
+            keepMounted
+            onClose={() => setClassicModal(false)}
+            aria-labelledby="classic-modal-slide-title"
+            aria-describedby="classic-modal-slide-description"
+        >
+            <DialogTitle
+            id="classic-modal-slide-title"
+            disableTypography
+            className={classes.modalHeader}
+            >
+            <h4 className={classes.modalTitle}>A-11451 3D Model</h4>
+            </DialogTitle>
+            <DialogContent
+            id="classic-modal-slide-description"
+            className={classes.modalBody}
+            >
+            <p>
+            1.  McDonald Patterned Corrugated bowl
+                Mogollon, Point of Pines Province, c. 1150–1280 CE
+                Point of Pines Pueblo, Graham Co., AZ
+                UA Archaeological Field School, 1952
+                <br /><br />
+                <ModelViewer />
+            </p>
+            </DialogContent>
+            <DialogActions className={classes.modalFooter}>
+            <Button
+                onClick={() => setClassicModal(false)}
+                color="danger"
+                simple
+            >
+                Close
+            </Button>
+            </DialogActions>
+        </Dialog>
+        </GridItem>
+    </GridContainer>
+      <div className={classNames(classes.main, classes.mainRaised)}>
+            <GridContainer justify="center"> 
               <GridItem xs={10} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
@@ -70,7 +151,7 @@ export default function ProfilePage(props) {
                         <IntroSection1 />
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3}>
-                            <img
+                            <img onClick={() => setClassicModal(true)}
                               alt="..."
                               src="https://drive.google.com/uc?export=view&id=1wVbowfrv1qMgJXh9r5z0WPGbs3ECLTj2"
                               className={navImageClasses}
@@ -624,6 +705,7 @@ export default function ProfilePage(props) {
                 />
               </GridItem>
             </GridContainer>
+          </div>
       <Footer />
     </div>
   );

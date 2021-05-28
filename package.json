@@ -1,8 +1,8 @@
 {
-  "name": "next-material-kit",
+  "name": "wall-of-pots",
   "version": "1.2.0",
   "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
-  "main": "index.js",
+  "main": "landing.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",

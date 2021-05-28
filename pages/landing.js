@@ -19,8 +19,6 @@ import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
 import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
-import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 
 const dashboardRoutes = [];
 
@@ -56,7 +54,7 @@ export default function LandingPage(props) {
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/watch?v=vsifscSMxeI"
                 target="_blank"
                 rel="noopener noreferrer"
               >

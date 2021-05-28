@@ -18,6 +18,9 @@ const imagesStyles = {
     marginBottom: "2.142rem",
     paddingLeft: '15px',
     paddingRight: '15px',
+    '&:hover': {
+      boxShadow:'0px 3px 50px 5px rgba(0,0,0,0.63)',
+    },
   },
   imgCardTop: {
     width: "100%",
