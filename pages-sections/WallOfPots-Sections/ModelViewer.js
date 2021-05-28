@@ -14,12 +14,12 @@ export default function ProductSection() {
   const classes = useStyles();
   return (
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={7}>
+        <GridItem xs={12} sm={12} md={7} justify='center'>
             <div class="sketchfab-embed-wrapper">
-                <iframe 
+                <iframe style={{display:'block'}}
                     title="A-11451" frameborder="0" allowfullscreen mozallowfullscreen="true" 
                     webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" 
-                    xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
+                    xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
                     src="https://sketchfab.com/models/5866a04d3c04489d9e753c853ee6ffc8/embed">
                 </iframe> 
                 <p style={{fontSize: '1.2em', fontWeight: 'normal', margin: '5px', color: '#4A4A4A'}}> 

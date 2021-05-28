@@ -39,8 +39,8 @@ export default function MapSection() {
         <Card sx={{ maxWidth: '100%' }}>
             <CardActionArea>
                 <CardMedia
-                style={{height: '480px', width: '640px'}}
-                image="https://drive.google.com/file/d/1TDN190U5_CKwtt8YtmjA1Kh4J_dnmDok/preview"
+                style={{height: '480px', width: '750px'}}
+                image="img/PV_Modern_AZ_and_NM_Map01.jpg"
                 title="Modern Map of Arizona and New Mexico"
                 />
                 <CardContent>

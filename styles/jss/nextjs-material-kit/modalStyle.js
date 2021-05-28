@@ -34,10 +34,10 @@ const modalStyle = {
     height: "16px",
   },
   modalBody: {
-    paddingTop: "24px",
-    paddingRight: "24px",
-    paddingBottom: "16px",
-    paddingLeft: "24px",
+    paddingTop: "32px",
+    paddingRight: "32px",
+    paddingBottom: "20px",
+    paddingLeft: "32px",
     position: "relative",
   },
   modalFooter: {

@@ -14,12 +14,15 @@ const imagesStyles = {
       "0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
   },
   imgGallery: {
+    height: '20%',
     width: "100%",
     marginBottom: "2.142rem",
     paddingLeft: '15px',
     paddingRight: '15px',
     '&:hover': {
       boxShadow:'0px 3px 50px 5px rgba(0,0,0,0.63)',
+      height: '21%',
+      width: '102%',
     },
   },
   imgCardTop: {
