@@ -150,95 +150,196 @@ export default function ProfilePage(props) {
                       <div>
                         <IntroSection1 />
                         <GridContainer justify="center">
-                          <GridItem xs={6} sm={3} md={3}>
+                        <GridItem xs={12} sm={5} md={2}>
                             <img onClick={() => setClassicModal(true)}
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1wVbowfrv1qMgJXh9r5z0WPGbs3ECLTj2"
+                              src="img/pot-images/Col1/Shelf1/A-11451.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1fkdA3KfT9fgF19Kz4NvHz65CAj5VMpf6"
+                              src="img/pot-images/Col1/Shelf1/A-3366.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1Pti8HljuAlCoPzeXL6P-kpDbfIbv0VNN"
+                              src="img/pot-images/Col1/Shelf1/GP-52910.png"
+                              className={navImageClasses}
+                            />
+
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={2}>
+                        <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf2/20674.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1n0TIiQ1CRJRYdtuV0HiiIzOqtX37PPoB"
+                              src="img/pot-images/Col1/Shelf2/20676.jpg"
+                              className={navImageClasses}
+                            />
+                           <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf2/A-7463.jpg"
+                              className={navImageClasses}
+                            />
+                           <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf2/GP-3624.jpg"
+                              className={navImageClasses}
+                            />
+                           <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf2/GP-3643.jpg"
+                              className={navImageClasses}
+                            />
+                            
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf2/GP-3710.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf2/GP-3724.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf2/GP-38474.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
-                        <GridItem xs={6} sm={3} md={3}>
-                            <img
+                          <GridItem xs={12} sm={12} md={2}>
+                          <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1zpG-BmhStvXZN6kOeN5K_gNCj0hut6d6"
+                              src="img/pot-images/Col1/Shelf3/20658.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=11xfqkuWpbTDHT0Tq4VeeuY4ltfdlY09D"
+                              src="img/pot-images/Col1/Shelf3/GP-3621.png"
+                              className={navImageClasses}
+                            />
+                          <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf3/GP-3631j.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1lQlTjw-vuI3p4JP3f83uzS7c-Zsgh4ra"
+                              src="img/pot-images/Col1/Shelf3/GP-3638.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=12hZ4VI7hqOu4o324q16iQ2LF52FkHo_N"
+                              src="img/pot-images/Col1/Shelf3/GP-3640.jpg"
                               className={navImageClasses}
                             />
-                          </GridItem>
-                          <GridItem xs={6} sm={3} md={3}>
-                          <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1lMbSXCRdsM6amx7wEhtqpeutvdPsT2sK"
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1W1yL491Umr0PbcG9vgqs4pJkKaWiChV3"
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1T37x-tcaQdv9JeWlwCSPc8JCxubsYW5l"
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1064wo1SaoJBanZ5gGLjWon17VHd8LgLd"
-                            className={navImageClasses}
-                          />
+                           <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf3/GP-10195.jpg"
+                              className={navImageClasses}
+                            />
+                            
                         </GridItem>
-                        <GridItem xs={6} sm={3} md={3}>
-                            <img
+                        <GridItem xs={12} sm={12} md={2}>
+
+                        <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=11NRn_z_JOtP16LQUhlYAFlT39WxwLbsg"
+                              src="img/pot-images/Col1/Shelf4/6655.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1Rvy2MN87EscRY1axmlzk3DAmaR5y6JTO"
+                              src="img/pot-images/Col1/Shelf4/GP-1113.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1vzGkW_Z4WRt8x3Fv4u_IQJMnC8AXyxPt"
+                              src="img/pot-images/Col1/Shelf4/GP-2538.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1tKtAz7CtXrj7OfekTGULvZdN63p5V4tu"
+                              src="img/pot-images/Col1/Shelf4/GP-1854.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf4/GP-4915.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf4/GP-4955.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf4/GP-5973.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf4/GP-38509.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf4/GP-38642.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf4/GP-50570.png"
                               className={navImageClasses}
                             />
                           </GridItem>
-                      </GridContainer>
+                      <GridItem xs={12} sm={12} md={2}>
+                        <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/80-65-1.png"
+                              className={navImageClasses}
+                            />
+                          <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/214462-x-2.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/A-7749.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/A-11744.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/A-16143.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/GP-3054.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/GP-8437.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col1/Shelf5/GP-42518.jpg"
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          </GridContainer>
                       </div>
                       ),
                     },
@@ -249,76 +350,110 @@ export default function ProfilePage(props) {
                         <div>
                         <IntroSection2 />
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={3}>
+                          <GridItem xs={12} sm={12} md={2}>
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1Em2pfZHeljeVDE0R4r9GLQi0cdIMpOHK"
+                              src="img/pot-images/Col2/Shelf1/91-39-1.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1OfgDE0VEqIIQhFpBgPHWbnT71bfCnDHq"
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src="https://drive.google.com/uc?export=view&id=17LV6QMWrFRdbMaGIZNL1lWUQXxtu4N2s"
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1ZrNOXQYu6q1kbMFKY-BGSpaI9rnWmLc_"
+                              src="img/pot-images/Col2/Shelf1/A-2700.png"
                               className={navImageClasses}
                             />
                           </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
-                            <img
+                        <GridItem xs={12} sm={12} md={2}>
+                          <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1JO5BIhWwpp5HtC1p6VCSCgLsibJN1qBP"
+                              src="img/pot-images/Col2/Shelf2/89-42-1.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1KTU85hgkb60fdK3p9gtEz2kfvsVtPZj1"
+                              src="img/pot-images/Col2/Shelf2/97-194-710.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1P38Ydzmegp-ExEKQdIU2W2KDqbzDb_IB"
+                              src="img/pot-images/Col2/Shelf2/A-23225.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="https://drive.google.com/uc?export=view&id=1_H1Y2UjIlGZccjLqNwcIYShGF2s0wnlx"
+                              src="img/pot-images/Col2/Shelf2/A-39022.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={3}>
+                          <GridItem xs={12} sm={12} md={2}>
                           <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1S2IWMn8e3iCYv97g3Fp2fEsMYYoe1KUK"
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf3/94-134-442.png"
+                              className={navImageClasses}
+                            />
                           <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1tBots9JaKGq3Pj4U0vnKjNiIz2NnwI2c"
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf3/97-194-695.png"
+                              className={navImageClasses}
+                            />
+                        </GridItem>
+                        <GridItem xs={12} sm={12} md={2}>
                           <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1dIAtgIULV4BvlkTtuhDwEOtXIvIpp0eV"
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf4/94-134-148.png"
+                              className={navImageClasses}
+                            />
                           <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1chAOePZI1CtstI1f6uSla2l_4ImiBORK"
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf4/6113.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf4/20144.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf4/A-9240.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf4/A-40223.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf4/GP-9786.png"
+                              className={navImageClasses}
+                            />
+                        </GridItem>
+                        <GridItem xs={12} sm={12} md={2}>
                           <img
-                            alt="..."
-                            src="https://drive.google.com/uc?export=view&id=1UPeLng-SBx9ODT6qJcz5X2JSAICummIc"
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf5/97-194-149.png"
+                              className={navImageClasses}
+                            />
+                          <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf5/97-194-562.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf5/97-194-705.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf5/23778.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col2/Shelf5/GP-6478.jpg"
+                              className={navImageClasses}
+                            />
                         </GridItem>
                         </GridContainer>
                       </div>
@@ -331,86 +466,149 @@ export default function ProfilePage(props) {
                       <div>
                         <IntroSection3 />
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={3}>
-                            <img
+                          <GridItem xs={12} sm={12} md={2}>
+                          <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col3/Shelf1/4464-x-2.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
+                              src="img/pot-images/Col3/Shelf1/GP-48325.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
-                            <img
+                        <GridItem xs={12} sm={12} md={2}>
+                        <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col3/Shelf2/12924.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col3/Shelf2/AT-76-19-1.png"
                               className={navImageClasses}
                             />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                        
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={3}>
+                          <GridItem xs={12} sm={12} md={2}>
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/GP-46912.png"
+                              className={navImageClasses}
+                            />
+                         <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/98-98-1.jpg"
+                              className={navImageClasses}
+                            />
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/A-4161.png"
+                              className={navImageClasses}
+                            />
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/A-4183.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/GP-856.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/GP-5500.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/GP-5929.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/GP-9129.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/GP-50576.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf3/GP-53134.jpg"
+                              className={navImageClasses}
+                            />
                         </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
-                            <img
+                        <GridItem xs={12} sm={12} md={2}>
+                        <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col3/Shelf4/81-55-1.jpg"
+                              className={navImageClasses}
+                            />
+                        <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf4/4096.jpg"
+                              className={navImageClasses}
+                            />
+                       <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf4/6894.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col3/Shelf4/18293.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col3/Shelf4/23823.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf4/GP-4730.png"
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={2}>
+                        <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf5/19197.png"
+                              className={navImageClasses}
+                            />
+                          <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf5/A-14304.jpg"
+                              className={navImageClasses}
+                            />
+                         <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf5/A-14360.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf5/A-14380.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf5/A-14404.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf5/GP-1079.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col3/Shelf5/GP-6108.png"
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -426,88 +624,107 @@ export default function ProfilePage(props) {
                       <div>
                         <IntroSection4 />
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={3}>
-                            <img
+                          <GridItem xs={12} sm={12} md={2}>
+                          <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf1/75-5-2.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf1/12726.png"
                               className={navImageClasses}
                             />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                          
                           </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
-                            <img
+                        <GridItem xs={12} sm={12} md={2}>
+                          <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf2/75-5-1.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf2/2000-14-2911.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf2/22933.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf2/23682.png"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf2/E-9469.png"
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf3/97-156-54.png"
+                              className={navImageClasses}
+                            />
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf3/2004-351-1.jpg"
+                              className={navImageClasses}
+                            />
+                         <img
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf3/4167.png"
+                              className={navImageClasses}
+                            />
+                         <img
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf3/12193:E-6423.png"
+                              className={navImageClasses}
+                            />
                         </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
-                            <img
+                        <GridItem xs={12} sm={12} md={2}>
+                        <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf4/E-6420.png"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf4/88-90-19.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src=""
+                              src="img/pot-images/Col4/Shelf4/4009.jpg"
                               className={navImageClasses}
                             />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf4/8308.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf4/GP-5899.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="img/pot-images/Col4/Shelf4/GP-52543.jpg"
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={2}>
+                          <img
+                                alt="..."
+                                src="img/pot-images/Col4/Shelf5/2000-14-32.png"
+                                className={navImageClasses}
+                              />
+
                           </GridItem>
                         </GridContainer>
                       </div>
@@ -521,87 +738,113 @@ export default function ProfilePage(props) {
                         <IntroSection5 />
                         <GridContainer justify="center">
                          <GridItem xs={12} sm={12} md={3}>
+                           <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf1/80-64-1.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf1/2002-78-1.png"
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf1/E-2847.png"
+                                className={navImageClasses}
+                              />
+                      
                           </GridItem>
                         <GridItem xs={12} sm={12} md={3}>
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf2/7377.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf2/8333.jpg"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf2/E-3649.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf2/E-3738.png"
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf2/E-5518.png"
+                                className={navImageClasses}
+                              />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf3/77-63-7.jpg"
+                                className={navImageClasses}
+                              />
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
-                          <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf3/86-69-1.png"
+                                className={navImageClasses}
+                              />
+                           <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf3/2006-1052-10.png"
+                                className={navImageClasses}
+                              />
+                           <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf3/8271.jpg"
+                                className={navImageClasses}
+                              />
+                               <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf3/E-9392.png"
+                                className={navImageClasses}
+                              />
+                               <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf3/E-9393.png"
+                                className={navImageClasses}
+                              />
+                               <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf3/GP-52582.png"
+                                className={navImageClasses}
+                              />
                         </GridItem>
                         <GridItem xs={12} sm={12} md={3}>
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf4/2006-166-1.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf4/8279.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf4/12207.png"
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf4/E-5340.png"
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src="img/pot-images/Col5/Shelf4/GP-5902.png"
+                                className={navImageClasses}
+                              />
                           </GridItem>
                         </GridContainer>
                       </div>
@@ -614,88 +857,201 @@ export default function ProfilePage(props) {
                       <div>
                         <IntroSection6 />
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={3}>
+                          <GridItem xs={12} sm={12} md={2}>
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf1/19179.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf1/22766.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf1/E-8736.png"
+                                className={navImageClasses}
+                              />
                           </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
+                        <GridItem xs={12} sm={12} md={2}>
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf2/77-33-14.png"
+                                className={navImageClasses}
+                              />
+                           <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf2/78-53-88.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf2/78-53-89.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf2/80-13-8.png"
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf2/98-125-10.png"
+                                className={navImageClasses}
+                              />
                           </GridItem>
-                          <GridItem xs={12} sm={12} md={3}>
+                          <GridItem xs={12} sm={12} md={2}>
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/2006-918-1.jpg"
+                                className={navImageClasses}
+                              />
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/2008-511-1.png"
+                                className={navImageClasses}
+                              />
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/18323.png"
+                                className={navImageClasses}
+                              />
+                         <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/8636.png"
+                                className={navImageClasses}
+                              />
+                              <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/14465.png"
+                                className={navImageClasses}
+                              />
+
                           <img
-                            alt="..."
-                            src=""
-                            className={navImageClasses}
-                          />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/22822.png"
+                                className={navImageClasses}
+                              />
+                          <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/22869.png"
+                                className={navImageClasses}
+                              />
+                          <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/22870.jpg"
+                                className={navImageClasses}
+                              />
+                          <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/E-492.png"
+                                className={navImageClasses}
+                              />
+                          <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf3/E-9764.png"
+                                className={navImageClasses}
+                              />
                         </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
+                        <GridItem xs={12} sm={12} md={2}>
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/80-57-2.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/81-15-2.png"
+                                className={navImageClasses}
+                              />
                             <img
-                              alt="..."
-                              src=""
-                              className={navImageClasses}
-                            />
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/81-15-15.png"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/87-54-1.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/210.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/218.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/4173.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/23055-X-9.png"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/E-3754.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf4/E-9916.jpg"
+                                className={navImageClasses}
+                              />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={2}>
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/2005-338-1.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/89-81-1.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/90-74-1.png"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/2002-79-1.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/2004-348-1.png"
+                                className={navImageClasses}
+                              />
+                           <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/2005-999-1.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/2005-999-2.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/2006-1064-1.jpg"
+                                className={navImageClasses}
+                              />
+                            <img
+                                alt="..."
+                                src="img/pot-images/Col6/Shelf5/E-3674.jpg"
+                                className={navImageClasses}
+                              />
                           </GridItem>
                         </GridContainer>
                       </div>
