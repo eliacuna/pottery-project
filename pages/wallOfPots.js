@@ -49,17 +49,64 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 Transition.displayName = "Transition";
 
-const displayInfo = () => {
-  <GridContainer>
-    <GridItem xs={12} sm={12} md={6} lg={4}>
-      <Modal />
-    </GridItem>
-  </GridContainer>
+const handleClick = () => {
+const [classicModal, setClassicModal] = React.useState(false);
+  DisplayInfo()
 }
 
-export default function ProfilePage(props) {
-  const [classicModal, setClassicModal] = React.useState(false);
+const DisplayInfo = (props) => {
+  setClassicModal(true);
   const classes = useStyles();
+  return (
+    <GridContainer>
+        <GridItem xs={12} sm={12} md={6} lg={4}>
+        <Dialog
+            classes={{
+            root: classes.center,
+            paper: classes.modal,
+            }}
+            open={classicModal}
+            TransitionComponent={Transition}
+            keepMounted
+            onClose={() => setClassicModal(false)}
+            aria-labelledby="classic-modal-slide-title"
+            aria-describedby="classic-modal-slide-description"
+        >
+            <DialogTitle
+            id="classic-modal-slide-title"
+            disableTypography
+            className={classes.modalHeader}
+            >
+            <h4 className={classes.modalTitle}>{props.name}</h4>
+            </DialogTitle>
+            <DialogContent
+            id="classic-modal-slide-description"
+            className={classes.modalBody}
+            >
+            <p>
+            {props.caption}
+                <br /><br />
+                <ModelViewer />
+            </p>
+            </DialogContent>
+            <DialogActions className={classes.modalFooter}>
+            <Button
+                onClick={() => setClassicModal(false)}
+                color="danger"
+                simple
+            >
+                Close
+            </Button>
+            </DialogActions>
+        </Dialog>
+        </GridItem>
+    </GridContainer>
+  )
+}
+
+export default function PotsPage(props) {
+  const classes = useStyles();
+
   const { ...rest } = props;
   const imageClasses = classNames(
     classes.imgRaised,
@@ -68,6 +115,8 @@ export default function ProfilePage(props) {
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
   return (
+    <div>
+    <DisplayInfo />
     <div>
       <Header
         color="transparent"
@@ -90,52 +139,7 @@ export default function ProfilePage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <GridContainer>
-        <GridItem xs={12} sm={12} md={6} lg={4}>
-        <Dialog
-            classes={{
-            root: classes.center,
-            paper: classes.modal,
-            }}
-            open={classicModal}
-            TransitionComponent={Transition}
-            keepMounted
-            onClose={() => setClassicModal(false)}
-            aria-labelledby="classic-modal-slide-title"
-            aria-describedby="classic-modal-slide-description"
-        >
-            <DialogTitle
-            id="classic-modal-slide-title"
-            disableTypography
-            className={classes.modalHeader}
-            >
-            <h4 className={classes.modalTitle}>A-11451 3D Model</h4>
-            </DialogTitle>
-            <DialogContent
-            id="classic-modal-slide-description"
-            className={classes.modalBody}
-            >
-            <p>
-            1.  McDonald Patterned Corrugated bowl
-                Mogollon, Point of Pines Province, c. 1150–1280 CE
-                Point of Pines Pueblo, Graham Co., AZ
-                UA Archaeological Field School, 1952
-                <br /><br />
-                <ModelViewer />
-            </p>
-            </DialogContent>
-            <DialogActions className={classes.modalFooter}>
-            <Button
-                onClick={() => setClassicModal(false)}
-                color="danger"
-                simple
-            >
-                Close
-            </Button>
-            </DialogActions>
-        </Dialog>
-        </GridItem>
-    </GridContainer>
+      
       <div className={classNames(classes.main, classes.mainRaised)}>
             <GridContainer justify="center"> 
               <GridItem xs={10} sm={12} md={8} className={classes.navWrapper}>
@@ -151,7 +155,7 @@ export default function ProfilePage(props) {
                         <IntroSection1 />
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3}>
-                            <img onClick={() => setClassicModal(true)}
+                            <img onClick={handleClick}
                               alt="..."
                               src="https://drive.google.com/uc?export=view&id=1wVbowfrv1qMgJXh9r5z0WPGbs3ECLTj2"
                               className={navImageClasses}
@@ -707,6 +711,7 @@ export default function ProfilePage(props) {
             </GridContainer>
           </div>
       <Footer />
+    </div>
     </div>
   );
 }
