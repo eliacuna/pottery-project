@@ -20,10 +20,7 @@ const imagesStyles = {
     paddingRight: '15px',
     '&:hover': {
       boxShadow:'0px 3px 50px 5px rgba(0,0,0,0.63)',
-<<<<<<< HEAD
-=======
       width: '102%',
->>>>>>> e08cf3ebdbbb649ba5c50b8ff79e0d038f0d03da
     },
   },
   imgCardTop: {

@@ -18,9 +18,9 @@ export default function ProductSection() {
         className={classes.section}
     >
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Ethnographic Pottery from Arizona, New Mexico, and Northern Mexico</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+        <GridItem xs={10} sm={10} md={16}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Ethnographic Pottery from Arizona, New Mexico, and Northern Mexico</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           The Akimel O’odham (Pima) and the Pee Posh (Maricopa) live along the Salt and Gila Rivers in southern 
           Arizona, and the Tohono O’odham (Papago) live in southwestern Arizona and Sonora, Mexico. O’odham pottery 
           has traditionally included plain brown and plain red vessels, as well as brown vessels with matte red paint, 

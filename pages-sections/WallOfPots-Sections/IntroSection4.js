@@ -18,9 +18,9 @@ export default function ProductSection() {
         className={classes.section}
     >
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Pre-Hispanic Pottery from the Colorado Plateau and the Northern Rio Grande</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+        <GridItem xs={10} sm={10} md={16}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Pre-Hispanic Pottery from the Colorado Plateau and the Northern Rio Grande</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           Pottery making on the Colorado Plateau, as in the central mountains, began by the first or second century CE. A 
           variety of clays suitable for making pottery are available there. Iron-bearing clays were used by potters who fired 
           their pots in reducing (oxygen-poor) atmospheres. These pots are typically gray. Vessels were sometimes constructed of 

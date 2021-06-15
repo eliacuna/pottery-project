@@ -18,9 +18,9 @@ export default function ProductSection() {
         className={classes.section}
     >
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Eastern Pueblo Ethnographic Pottery</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+        <GridItem xs={10} sm={10} md={16}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Eastern Pueblo Ethnographic Pottery</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           All sixteen Eastern Pueblos, located along the Rio Grande River in northern New Mexico, made decorated or plain 
           pottery in historic times. Different clays, shapes, and decorative techniques are associated with the pottery-making 
           tradition of each community. Seven Pueblos—Cochiti, Kewa (Santo Domingo), Ohkay Owingeh (San Juan), San Ildefonso, 

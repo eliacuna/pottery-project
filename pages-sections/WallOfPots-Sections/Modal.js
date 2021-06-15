@@ -24,7 +24,7 @@ import Button from "components/CustomButtons/Button.js";
 import styles from "styles/jss/nextjs-material-kit/pages/componentsSections/javascriptStyles.js";
 
 // import sections
-import ModelViwer   from "pages-sections/WallOfPots-Sections/ModelViewer.js";
+import ModelViewer   from "pages-sections/WallOfPots-Sections/ModelViewer.js";
 
 const useStyles = makeStyles(styles);
 
@@ -73,7 +73,7 @@ export default function SectionJavascript() {
             className={classes.modalBody}
             >
             <p>
-                Congrats!
+                <ModelViewer />
             </p>
             </DialogContent>
             <DialogActions className={classes.modalFooter}>

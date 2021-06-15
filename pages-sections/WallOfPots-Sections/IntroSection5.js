@@ -18,9 +18,9 @@ export default function ProductSection() {
         className={classes.section}
     >
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Pre-Hispanic and Protohistoric Pottery from the Sonoran Desert and the Lower Colorado River Valley</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+        <GridItem xs={10} sm={10} md={16}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Pre-Hispanic and Protohistoric Pottery from the Sonoran Desert and the Lower Colorado River Valley</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           The earliest pottery vessels now known in the American Southwest have been found in the Sonoran Desert, in Tucson, 
           and date as early as 50 CE. Clays in the Sonoran Desert and the lower Colorado River Valley are generally rich in 
           iron and, as in the mountains to the north and east, potters preferred to fire their pots in oxidizing (oxygen-rich) 

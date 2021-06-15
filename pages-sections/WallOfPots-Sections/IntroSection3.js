@@ -18,9 +18,9 @@ export default function ProductSection() {
         className={classes.section}
     >
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Western Pueblo Ethnographic Pottery</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+        <GridItem xs={10} sm={10} md={16}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Western Pueblo Ethnographic Pottery</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           Western Pueblo people—the Hopi, Zuni, Acoma, and Laguna—live on the high plateaus and mesas of northeastern Arizona 
           and northwestern New Mexico. Classic Hopi pottery has a distinct yellow cast from the type of clay used and the firing 
           conditions employed. Zuni pottery possesses a white base color and is known for its deer “heartline” and medallion 
