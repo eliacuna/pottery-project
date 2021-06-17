@@ -1019,7 +1019,7 @@ export default function PotsPage(props) {
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={3}>
                           <Pot 
-                                        name="Chupadero Black-on-white pitcher "
+                                        name="Chupadero Black-on-white pitcher"
                                         captionLine1="Ancestral Pueblo (Anasazi), Rio Grande Province"
                                         captionLine2="C. 1150–1675 CE"
                                         captionLine3="Provenience unknown"
@@ -1136,7 +1136,7 @@ export default function PotsPage(props) {
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
                           <Pot 
-                                        name="Jeddito Black-on-yellow bowl (not visible)\"
+                                        name="Jeddito Black-on-yellow bowl (not visible)"
                                         captionLine1="Early Hopi, Tusayan Province\"
                                         captionLine2="C. 1375–1630 CE"
                                         captionLine3="Awat’ovi, Antelope Mesa, Navajo Co., AZ"
@@ -1144,6 +1144,111 @@ export default function PotsPage(props) {
                                         captionLine5="Gladwin Collection"
                                         potID="GP856"
                                         path="img/pot-images/Col3/Shelf3/GP-856.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Pinnawa Glaze-on-white jar"
+                                        captionLine1="Early Zuni, White River Province"
+                                        captionLine2="C. 1350–1500 CE"
+                                        captionLine3="Clear Creek, White Mountains, Gila Co., AZ"
+                                        captionLine4="Gift of a Museum Friend, 1933"
+                                        potID="6894"
+                                        path="img/pot-images/Col3/Shelf4/6894.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Sikyatki Polychrome jar, late style"
+                                        captionLine1="Early Hopi, Tusayan Province"
+                                        captionLine2="C. 1450–1630 CE"
+                                        captionLine3="Keams Canyon, Navajo Co., AZ"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="McAdams Collection"
+                                        potID="GP4730"
+                                        path="img/pot-images/Col3/Shelf4/GP-4730.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Kwakina Polychrome bowl"
+                                        captionLine1="Early Zuni, White River Province"
+                                        captionLine2="C. 1275–1500 CE"
+                                        captionLine3="Kinishba, Whiteriver, Gila Co., AZ"
+                                        captionLine4="UA Archaeological Project, 1931–1939"
+                                        potID="23823"
+                                        path="img/pot-images/Col3/Shelf4/23823.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Matsaki Polychrome jar"
+                                        captionLine1="Early Zuni, Zuni Province"
+                                        captionLine2="C. 1400–1680 CE"
+                                        captionLine3="Mats’a:kya, Zuni River, McKinley Co., NM"
+                                        captionLine4="Gift of Museum Friends, 1981"
+                                        potID="81-55-1"
+                                        path="img/pot-images/Col3/Shelf4/81-55-1.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Jeddito Stippled bowl, hand motif"
+                                        captionLine1="Early Hopi, Tusayan Province"
+                                        captionLine2="C. 1375–1630 CE"
+                                        captionLine3="Hopi Mesas, Navajo Co., AZ"
+                                        captionLine4="Gift of the Arizona Archaeological and Historical Society, 1917"
+                                        captionLine5="Miller Collection"
+                                        potID="4096"
+                                        path="img/pot-images/Col3/Shelf4/4096.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Awatovi Black-on-yellow ladle (not visible)"
+                                        captionLine1="Early Hopi, Tusayan Province"
+                                        captionLine2="C. 1300–1375 CE"
+                                        captionLine3="Hopi Mesas, Navajo Co., AZ"
+                                        captionLine4="Gift of the Arizona Archaeological and Historical Society, 1917"
+                                        captionLine5="Miller Collection"
+                                        potID="18293"
+                                        path="img/pot-images/Col3/Shelf4/18293.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Basketmaker Mudware bowl"
+                                        captionLine1="Ancestral Pueblo (Anasazi)\n Kayenta Province"
+                                        captionLine2="C. 575–700 CE"
+                                        captionLine3="Broken Flute Cave, Prayer Rock District\n  Apache Co., AZ"
+                                        captionLine4="Gift of Carnegie Institution, 1957"
+                                        captionLine5="Excavated by Earl H. Morris, 1931"
+                                        potID="A-14380"
+                                        path="img/pot-images/Col3/Shelf5/A-14380.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Basketmaker Mudware bowl"
+                                        captionLine1="Ancestral Pueblo (Anasazi)\n Kayenta Province"
+                                        captionLine2="C. 575–700 CE"
+                                        captionLine3="Broken Flute Cave, Prayer Rock District\n  Apache Co., AZ"
+                                        captionLine4="Gift of Carnegie Institution, 1957"
+                                        captionLine5="Excavated by Earl H. Morris, 1931"
+                                        potID="A-14380"
+                                        path="img/pot-images/Col3/Shelf5/A-14380.png"
                                         has3DModel="false"
                                   />
                           </GridItem>
