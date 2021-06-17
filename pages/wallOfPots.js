@@ -940,7 +940,7 @@ export default function PotsPage(props) {
                           <GridItem xs={12} sm={12} md={3}>
                           <Pot 
                                         name="Sacaton Red bowl"
-                                        captionLine1="Hohokam, Gila Bend Province\"
+                                        captionLine1="Hohokam, Gila Bend Province"
                                         captionLine2="C. 950–1150 CE"
                                         captionLine3="Three Mile Site, Painted Rock Reservoir; Maricopa Co., AZ"
                                         captionLine4="Gift of Ethel Crane Allen, 1997"
@@ -962,16 +962,190 @@ export default function PotsPage(props) {
                         <IntroSection3 />
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={3}>
-                            
+                          <Pot 
+                                        name="Moenkopi Corrugated jar"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
+                                        captionLine2="C. 1075–1300 CE"
+                                        captionLine3="Northern Arizona"
+                                        captionLine4="Gift of the Arizona Archaeological and Historical Society, 1917"
+                                        captionLine5="Miller Collection"
+                                        potID="4464-X-2"
+                                        path="img/pot-images/Col3/Shelf1/4464-X-2.jpg"
+                                        has3DModel="false"
+                                  />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
-                            
+                          <Pot 
+                                        name="Chapin Gray jar"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Mesa Verde Province"
+                                        captionLine2="C. 575–900 CE"
+                                        captionLine3="Durango vicinity, La Plata Co., CO"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Flora Collection"
+                                        potID="GP48325"
+                                        path="img/pot-images/Col3/Shelf1/GP-48325.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Sosi Black-on-white jar"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
+                                        captionLine2="C. 1050–1180 CE"
+                                        captionLine3="Turkey Cave, Tsegi Canyon, Navajo Co., AZ"
+                                        captionLine4="Loaned by Grand Canyon National Park, 1976"
+                                        captionLine5="Excavated by Harold S. Gladwin, 1929"
+                                        potID="AT-76-19-1"
+                                        path="img/pot-images/Col3/Shelf2/AT-76-19-1.png"
+                                        has3DModel="false"
+                                  />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
-                         
+                          <Pot 
+                                        name="Sosi Black-on-white jar"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
+                                        captionLine2="C. 1050–1180 CE"
+                                        captionLine3="Turkey Cave, Tsegi Canyon, Navajo Co., AZ"
+                                        captionLine4="UA Archaeological Project, c. 1920"
+                                        captionLine5="Excavated by Byron Cummings"
+                                        potID="12924"
+                                        path="img/pot-images/Col3/Shelf2/12924.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Chupadero Black-on-white pitcher "
+                                        captionLine1="Ancestral Pueblo (Anasazi), Rio Grande Province"
+                                        captionLine2="C. 1150–1675 CE"
+                                        captionLine3="Provenience unknown"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Gladwin Collection"
+                                        potID="GP53134"
+                                        path="img/pot-images/Col3/Shelf3/GP-53134.jpg"
+                                        has3DModel="false"
+                                  />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
-                           
+                          <Pot 
+                                        name="Mesa Verde Black-on-white mug"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Mesa Verde Province"
+                                        captionLine2="C. 1200–1300 CE"
+                                        captionLine3="Mesa Verde, Montezuma Co., CO"
+                                        captionLine4="Gift of a Museum Friend, 1946"
+                                        captionLine5="Wetherill Collection"
+                                        potID="A-4183"
+                                        path="img/pot-images/Col3/Shelf3/A-4183.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Tuwiuca Black-on-orange bowl"
+                                        captionLine1="Early Hopi, Winslow Province"
+                                        captionLine2="C. 1250–1350 CE"
+                                        captionLine3="Chavez Pass Ruin, Chavez Pass; Coconino Co., AZ"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Toelle Collection"
+                                        potID="GP9129"
+                                        path="img/pot-images/Col3/Shelf3/GP-9129.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Chaco Black-on-white pitcher"
+                                        captionLine1="Ancestral Pueblo (Anasazi) Chaco Province"
+                                        captionLine2="c. 1050–1125 CE"
+                                        captionLine3="Gallup vicinity, McKinley Co., NM"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Gladwin Collection"
+                                        potID="GP5929"
+                                        path="img/pot-images/Col3/Shelf3/GP-5929.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Mesa Verde Black-on-white double mug"
+                                        captionLine1="Ancestral Pueblo (Anasazi) Mesa Verde Province"
+                                        captionLine2="c. 1200–1300 CE"
+                                        captionLine3="Dove Creek vicinity, Dolores Co., CO"
+                                        captionLine4="Gift of Ethel Crane Allen, 1998"
+                                        captionLine5="Allen Collection"
+                                        potID="98-98-1"
+                                        path="img/pot-images/Col3/Shelf3/98-98-1.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Chapin Black-on-white bowl"
+                                        captionLine1="Ancestral Pueblo (Anasazi) Mesa Verde Province"
+                                        captionLine2="c. 575–900 CE"
+                                        captionLine3="Animas Mountain, La Plata Co., CO"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Flora Collection"
+                                        potID="GP46912"
+                                        path="img/pot-images/Col3/Shelf3/GP-46912.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Kiet Siel Polychrome canteen"
+                                        captionLine1="Ancestral Pueblo (Anasazi) Kayenta Province"
+                                        captionLine2="c. 1250–1300 CE"
+                                        captionLine3="Flagstaff vicinity, Coconino Co., AZ"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Babbitt Brothers Collection"
+                                        potID="GP5500"
+                                        path="img/pot-images/Col3/Shelf3/GP-5500.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Tusayan Black-on- red seed jar"
+                                        captionLine1="Ancestral Pueblo (Anasazi) Kayenta Province"
+                                        captionLine2="c. 1050–1200 CE"
+                                        captionLine3="Kayenta vicinity, Navajo Co., AZ"
+                                        captionLine4="Gift of a Museum Friend, 1946"
+                                        captionLine5="Wetherill Collection"
+                                        potID="A-4161"
+                                        path="img/pot-images/Col3/Shelf3/A-4161.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="White Mound Black-on white bird effigy jar"
+                                        captionLine1="Ancestral Pueblo (Anasazi) Chaco Province"
+                                        captionLine2="C. 675–900 CE"
+                                        captionLine3="White Mound Village, Rio Puerco, Apache Co., AZ"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Excavated by Emil W. Haury and E. B. Sayles, 1936"
+                                        potID="GP50576"
+                                        path="img/pot-images/Col3/Shelf3/GP-50576.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Jeddito Black-on-yellow bowl (not visible)\"
+                                        captionLine1="Early Hopi, Tusayan Province\"
+                                        captionLine2="C. 1375–1630 CE"
+                                        captionLine3="Awat’ovi, Antelope Mesa, Navajo Co., AZ"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Gladwin Collection"
+                                        potID="GP856"
+                                        path="img/pot-images/Col3/Shelf3/GP-856.jpg"
+                                        has3DModel="false"
+                                  />
                           </GridItem>
                         </GridContainer>
                       </div>
