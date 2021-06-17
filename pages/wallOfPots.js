@@ -716,12 +716,240 @@ export default function PotsPage(props) {
                         <IntroSection2 />
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Tizon Brown Ware jar"
+                                        captionLine1="Upland Patayan or historic Yavapai"
+                                        captionLine2="Hassayampa Province"
+                                        captionLine3="C. 1600?–1900? CE"
+                                        captionLine4="Date Creek Mountains, Yavapai Co., AZ"
+                                        captionLine5="ASM Archaeological Project, 1991"
+                                        potID="91-39-1"
+                                        path="img/pot-images/Col2/Shelf1/91-39-1.png"
+                                        has3DModel="false"
+                                  />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
-                            
+                          <Pot 
+                                        name="Tizon Brown Ware jar, native repairs with lac"
+                                        captionLine1="Upland Patayan or historic Hualapai\"
+                                        captionLine2="Hassayampa Province"
+                                        captionLine3="C. 1600?–1900? CE"
+                                        captionLine4="Harquahala Mountains, Maricopa Co., AZ"
+                                        captionLine5="Gift of a Museum Friend, 1942"
+                                        potID="A-2700"
+                                        path="img/pot-images/Col2/Shelf1/A-2700.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Tumco Buff jar, formerly sealed with lac"
+                                        captionLine1="Lowland Patayan, Lower Colorado Province"
+                                        captionLine2="C. 1000–1650 CE"
+                                        captionLine3="Cibola Valley, Lower Colorado River, Yuma Co., AZ"
+                                        captionLine4="BLM Repository Collection, 1970"
+                                        potID="A-39022"
+                                        path="img/pot-images/Col2/Shelf2/A-39022.jpg"
+                                        has3DModel="false"
+                                  />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
-                        </GridItem>
+                          <Pot 
+                                        name="Tumco Buff jar, formerly sealed with lac"
+                                        captionLine1="Lowland Patayan, Lower Colorado Province"
+                                        captionLine2="C. 1000–1650 CE"
+                                        captionLine3="Trigo Mountains, Yuma Co., AZ"
+                                        captionLine4="BLM Repository Collection, 1989"
+                                        potID="89-42-1"
+                                        path="img/pot-images/Col2/Shelf2/89-42-1.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Palomas Stucco wide-mouth jar"
+                                        captionLine1="Lowland Patayan, Lower Colorado Province"
+                                        captionLine2="C. 1650–1900 CE"
+                                        captionLine3="Heart Tank/Heart Tank Trail, Sierra Pinta, Yuma Co., AZ"
+                                        captionLine4="Gift of a Museum Friend, 1963"
+                                        potID="A-23225"
+                                        path="img/pot-images/Col2/Shelf2/A-23225.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Gila Plain jar\"
+                                        captionLine1="Hohokam, Gila Bend Province"
+                                        captionLine2="C. 650–1150 CE"
+                                        captionLine3="Three Mile Site, Painted Rock Reservoir, Maricopa Co., AZ"
+                                        captionLine4="Gift of Ethel Crane Allen, 1997"
+                                        captionLine5="Allen Collection"
+                                        potID="97-194-710"
+                                        path="img/pot-images/Col2/Shelf2/97-194-710.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Santa Cruz Red-on-buff jar, burden carrier motifs"
+                                        captionLine1="Hohokam, Gila Bend Province"
+                                        captionLine2="C. 850–1000 CE"
+                                        captionLine3="Zeta Site, Painted Rock Reservoir, Maricopa Co., AZ"
+                                        captionLine4="Gift of Ethel Crane Allen, 1997"
+                                        captionLine5="Allen Collection"
+                                        potID="97-194-695"
+                                        path="img/pot-images/Col2/Shelf3/97-194-695.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Santa Cruz Red-on-buff jar, burden carrier motifs"
+                                        captionLine1="Hohokam, Gila Bend Province"
+                                        captionLine2="C. 850–1000 CE"
+                                        captionLine3="Zeta Site, Painted Rock Reservoir, Maricopa Co., AZ"
+                                        captionLine4="Gift of Ethel Crane Allen, 1997"
+                                        captionLine5="Allen Collection"
+                                        potID="94-134-442"
+                                        path="img/pot-images/Col2/Shelf3/94-134-442.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Rincon Red-on-brown bowl"
+                                        captionLine1="Hohokam, Tucson Province"
+                                        captionLine2="C. 950–1150 CE"
+                                        captionLine3="Red Cave, Whetstone Mountains, Pima Co., AZ"
+                                        captionLine4="Coronado National Forest Repository Collection, 1973"
+                                        potID="A-40223"
+                                        path="img/pot-images/Col2/Shelf4/A-40223.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Tanque Verde Red-on-brown bighorn sheep effigy jar"
+                                        captionLine1="Hohokam, Tucson Province"
+                                        captionLine2="C. 1150–1450 CE"
+                                        captionLine3="Hodges Ruin, Tucson, Pima Co., AZ"
+                                        captionLine4="Gift of Wetmore Hodges, 1944"
+                                        captionLine5="Excavated by Isabel Kelly and Carl Miller, 1936"
+                                        potID="A-9240"
+                                        path="img/pot-images/Col2/Shelf4/A-9240.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Rincon Polychrome jar"
+                                        captionLine1="Hohokam, Tucson Province"
+                                        captionLine2="C. 1000–1100 CE"
+                                        captionLine3="St. Mary’s Hospital Site, Tucson, Pima Co., AZ"
+                                        captionLine4="UA Archaeological Project, 1920"
+                                        potID="20144"
+                                        path="img/pot-images/Col2/Shelf4/20144.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Casa Grande Red-on-buff jar"
+                                        captionLine1="Hohokam, Salt-Gila Province"
+                                        captionLine2="C. 1150–1450 CE"
+                                        captionLine3="Germann’s Ranch, Queen Creek, Maricopa Co., AZ"
+                                        captionLine4="Gift of a Museum Friend, 1921"
+                                        potID="6113"
+                                        path="img/pot-images/Col2/Shelf4/6113.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Casa Grande Red-on-buff pitcher"
+                                        captionLine1="Hohokam, Salt-Gila Province"
+                                        captionLine2="C. 1150–1450 CE"
+                                        captionLine3="La Ciudad, Phoenix, Maricopa Co., AZ"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Showalter Collection"
+                                        potID="GP9786"
+                                        path="img/pot-images/Col2/Shelf4/GP-9786.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                        </GridContainer>
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Sacaton Red-on-buff plate, water bird with fish"
+                                        captionLine1="Hohokam, Gila Bend Province"
+                                        captionLine2=" C. 950–1150 CE"
+                                        captionLine3="Escuela Site, Painted Rock Reservoir\n Maricopa Co., AZ"
+                                        captionLine4="Gift of Ethel Crane Allen, 1997"
+                                        captionLine5="Allen Collection"
+                                        potID="97-194-149"
+                                        path="img/pot-images/Col2/Shelf5/97-194-149.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Gila Butte Red-on-buff bowl, pelican motifs"
+                                        captionLine1="Hohokam, Salt-Gila Province"
+                                        captionLine2=" C. 750–900 CE"
+                                        captionLine3="La Ciudad, Phoenix, Maricopa Co., AZ"
+                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine5="Johnson Collection"
+                                        potID="GP6478"
+                                        path="img/pot-images/Col2/Shelf5/GP-6478.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Gila Plain jar"
+                                        captionLine1="Hohokam, Salt-Gila Province"
+                                        captionLine2="C. 650–1150 CE"
+                                        captionLine3="Three Mile Site, Painted Rock Reservoir; Maricopa Co., AZ"
+                                        captionLine4="Gift of Ethel Crane Allen, 1997"
+                                        captionLine5="Allen Collection"
+                                        potID="97-194-562"
+                                        path="img/pot-images/Col2/Shelf5/97-194-562.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Gila Plain: Tucson Variety boot pitcher"
+                                        captionLine1="Hohokam, Tucson Province"
+                                        captionLine2="C. 1300–1450 CE"
+                                        captionLine3="University Indian Ruin, Tucson; Pima Co., AZ"
+                                        captionLine4="UA Archaeological Project, 1931–1937"
+                                        potID="23778"
+                                        path="img/pot-images/Col2/Shelf5/23778.jpg"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
+                          <Pot 
+                                        name="Sacaton Red bowl"
+                                        captionLine1="Hohokam, Gila Bend Province\"
+                                        captionLine2="C. 950–1150 CE"
+                                        captionLine3="Three Mile Site, Painted Rock Reservoir; Maricopa Co., AZ"
+                                        captionLine4="Gift of Ethel Crane Allen, 1997"
+                                        captionLine5="Allen Collection"
+                                        potID="97-194-705"
+                                        path="img/pot-images/Col2/Shelf5/97-194-705.png"
+                                        has3DModel="false"
+                                  />
+                          </GridItem>
                         </GridContainer>
                       </div>
                       ),
