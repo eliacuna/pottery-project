@@ -263,7 +263,7 @@ export default function PotsPage(props) {
                               />
                               
                           </GridItem>
-                        <GridItem xs={6} sm={3} md={3}>
+                          <GridItem xs={6} sm={3} md={3}>
                               <Pot 
                                     name="Fourmile Polychrome Jar"
                                     captionLine1="Mogollon, Upper Little Colorado Province, c. 1330-1400 CE"
@@ -309,7 +309,7 @@ export default function PotsPage(props) {
                             
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
-                        </GridItem>
+                          </GridItem>
                         </GridContainer>
                       </div>
                       ),
@@ -392,13 +392,13 @@ export default function PotsPage(props) {
                           <GridItem xs={12} sm={12} md={3}>
                             
                           </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
+                          <GridItem xs={12} sm={12} md={3}>
                             
                           </GridItem>
                           <GridItem xs={12} sm={12} md={3}>
                           
-                        </GridItem>
-                        <GridItem xs={12} sm={12} md={3}>
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={3}>
                             
                           </GridItem>
                         </GridContainer>

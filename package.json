@@ -1,7 +1,7 @@
 {
   "name": "wall-of-pots",
   "version": "1.2.0",
-  "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
+  "description": "Virtual experience for The Pottery Project at the Arizona State Museum",
   "main": "landing.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/nextjs-material-kit.git"
+    "url": "git+https://github.com/CDH-Development-Team/Wall-Of-Pots"
   },
   "keywords": [
     "next",
@@ -26,12 +26,9 @@
     "material-kit-react",
     "next-material-kit"
   ],
-  "author": "Creative Tim",
+  "author": "Center for Digital Humanities",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/nextjs-material-kit/issues"
-  },
-  "homepage": "https://demos.creative-tim.com/nextjs-material-kit",
+  "homepage": "statemuseum.arizona.edu",
   "dependencies": {
     "@material-ui/core": "4.11.4",
     "@material-ui/icons": "4.11.2",
