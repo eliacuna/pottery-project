@@ -22,8 +22,8 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Continuity</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Continuity</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           There is no simple, one-to-one relationship between a particular ancient group and any one modern group of Native 
           Americans. However, when links between past and present peoples can be traced, it is often pottery that demonstrates 
           these connections. Today, Native artists continue to innovate even as they preserve time-honored customs.

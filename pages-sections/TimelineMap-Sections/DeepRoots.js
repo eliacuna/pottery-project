@@ -22,8 +22,8 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Deep Roots</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Deep Roots</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           The Indigenous peoples of the Southwest developed regional pottery traditions by 500 CE using different 
           raw materials, forming techniques, shapes, and painted design styles. Archaeologists, who study pottery to 
           understand the past, refer to the ancient people of the Colorado Plateau as Ancestral Pueblo,and those of the 

@@ -22,8 +22,8 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Southwest Native Pottery</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+          <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Southwest Native Pottery</h2>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           Southwest Native pottery is renowned for its beauty and for its ability to tell the stories of Indigenous peoples. 
           Pottery vessels became common in the region by 150 CE and though the craft has changed in many ways, it has always 
           been a tradition handed down through the generations. This timeline, composed of examples from the Arizona State 

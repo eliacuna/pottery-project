@@ -23,13 +23,13 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Welcome!</h2>
-          <h4 className={classes.description} style={{color:'black', fontFamily:'serif'}}>
+          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           The Pottery Project celebrates the Indigenous pottery-making traditions in the U.S. Southwest 
           and northwest Mexico by showcasing 500 choice specimens from the larger, renowned collection of 
           24,000 whole vessels. The exhibit features interactive displays, interviews with archaeologists 
           and Native potters, videos, and hands-on experiences. 
           </h4>
-          <h5 className={classes.description} style={{color:'red', fontFamily:'serif'}}>
+          <h5 className={classes.description} style={{textAlign:'left', color:'red', fontFamily:'serif'}}>
           The Arizona State Museum and the University of Arizona are located on land that has been home to 
           Indigenous peoples for 13,000 years. Today, the Tucson area is home to the Tohono O’odham and the 
           Pascua Yaqui. Currently, there are 22 federally recognized tribes with reservation lands in the 

@@ -45,10 +45,7 @@ export default function MapSection() {
                 />
                 <CardContent>
                 </CardContent>
-            <Typography variant="body2" color="text.secondary">
-                The Pottery Project timeline and maps are made possible by a grant from the Joseph and 
-                Mary Cacioppio Foundation.
-          </Typography>
+            
             </CardActionArea>
             <MobileStepper
             variant="dots"
