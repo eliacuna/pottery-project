@@ -33,8 +33,12 @@ import DialogActions from "@material-ui/core/DialogActions";
 import styles from "styles/jss/nextjs-material-kit/pages/wallOfPots.js";
 
 // Sections for this page
-import CoilAndScrape from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
-import Redox         from "pages-sections/MakingPots-Sections/Redox.js";
+import Introduction   from "pages-sections/MakingPots-Sections/Introduction.js";
+import Decoration     from "pages-sections/MakingPots-Sections/Decoration.js";
+import PaddleAndAvil  from "pages-sections/MakingPots-Sections/PaddleAndAvil.js";
+import CoilAndScrape  from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
+import MakingIntro from "pages-sections/MakingPots-Sections/MakingIntro.js";
+import Sequence from "pages-sections/MakingPots-Sections/Sequence.js";
 
 const useStyles = makeStyles(styles);
 
@@ -73,41 +77,12 @@ export default function MakingPots(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
             <GridContainer justify="center"> 
-              <GridItem xs={10} sm={12} md={8} className={classes.navWrapper}>
-                <NavPills
-                  alignCenter
-                  color="primary"
-                  tabs={[
-                    {
-                      tabButton: "Coil and Scrape",
-                      tabIcon: Filter1Icon,
-                      tabContent: (
-                      <div>
-                        <CoilAndScrape />
-                      </div>
-                      ),
-                    },
-                    {
-                      tabButton: "Paddle and Anvil",
-                      tabIcon: Filter2Icon,
-                      tabContent: (
-                      <div>
-                        <CoilAndScrape />
-                      </div>
-                      ),
-                    },
-                    {
-                      tabButton: "Redox",
-                      tabIcon: Filter3Icon,
-                      tabContent: (
-                      <div>
-                        <Redox />
-                      </div>
-                      ),
-                    },
-                  ]}
-                />
-              </GridItem>
+              <Introduction />
+              <PaddleAndAvil />
+              <CoilAndScrape />
+              <Decoration />
+              <MakingIntro />
+              <Sequence />
             </GridContainer>
           </div>
       <Footer />

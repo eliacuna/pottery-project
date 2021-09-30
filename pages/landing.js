@@ -41,7 +41,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/bgVideo.mp4">
+      <Parallax filter responsive image="/img/bgVideo.gif">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -51,9 +51,7 @@ export default function LandingPage(props) {
                 Pottery Project exhibit.
               </h4>
               <br />
-              <video autoPlay muted loop id="myVideo">
-                <source src="rain.mp4" type="video/mp4" />
-              </video>
+              
             </GridItem>
           </GridContainer>
         </div>

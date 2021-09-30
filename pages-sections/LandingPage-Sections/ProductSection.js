@@ -22,18 +22,17 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Welcome!</h2>
+          <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Enter the World of Southwestern Native Pottery</h2>
           <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           The Pottery Project celebrates the Indigenous pottery-making traditions in the U.S. Southwest 
-          and northwest Mexico by showcasing 500 choice specimens from the larger, renowned collection of 
-          24,000 whole vessels. The exhibit features interactive displays, interviews with archaeologists 
-          and Native potters, videos, and hands-on experiences. 
+          and northwest Mexico by showcasing choice specimens from Arizona State Museum's renowned collection of 
+          24,000 whole vessels.
           </h4>
           <h5 className={classes.description} style={{textAlign:'left', color:'red', fontFamily:'serif'}}>
-          The Arizona State Museum and the University of Arizona are located on land that has been home to 
-          Indigenous peoples for 13,000 years. Today, the Tucson area is home to the Tohono O’odham and the 
-          Pascua Yaqui. Currently, there are 22 federally recognized tribes with reservation lands in the 
-          state of Arizona. 
+          We respectfully acknowledge the University of Arizona is on the land and territories of Indigenous peoples. Today, Arizona 
+          is home to 22 federally recognized tribes, with Tucson being home to the O’odham and the Yaqui. Committed to diversity and 
+          inclusion, the University strives to build sustainable relationships with sovereign Native Nations and Indigenous communities 
+          through education offerings, partnerships, and community service.
           </h5>
         </GridItem>
       </GridContainer>

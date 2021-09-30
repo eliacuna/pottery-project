@@ -17,6 +17,7 @@ import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
+import ImageMap from "image-map";
 
 import styles from "styles/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 
@@ -26,6 +27,14 @@ export default function MapSection() {
   const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
+
+  let displayMap = '';
+
+  if (activeStep <= 2) {
+    displayMap = 'img/PV_Modern_AZ_and_NM_Map01.jpg';
+  } else {
+    displayMap = 'img/map2.jpg';
+  }
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -38,13 +47,12 @@ export default function MapSection() {
     <GridContainer justify="center">
         <Card sx={{ maxWidth: '100%' }}>
             <CardActionArea>
+                
                 <CardMedia
-                style={{height: '480px', width: '750px'}}
-                image="img/PV_Modern_AZ_and_NM_Map01.jpg"
+                style={{height: '800px', width: '1000px'}}
+                image={displayMap}
                 title="Modern Map of Arizona and New Mexico"
                 />
-                <CardContent>
-                </CardContent>
             
             </CardActionArea>
             <MobileStepper
