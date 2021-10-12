@@ -39,6 +39,7 @@ import PaddleAndAvil  from "pages-sections/MakingPots-Sections/PaddleAndAvil.js"
 import CoilAndScrape  from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
 import MakingIntro from "pages-sections/MakingPots-Sections/MakingIntro.js";
 import Sequence from "pages-sections/MakingPots-Sections/Sequence.js";
+//import SectionCard from "pages-sections/MakingPots-Sections/SectionCard.js";
 
 const useStyles = makeStyles(styles);
 
