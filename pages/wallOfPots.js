@@ -255,7 +255,7 @@ export default function PotsPage(props) {
                                     name="McDonald Pattern Corrugated Bowl" 
                                     embed="https://sketchfab.com/models/5866a04d3c04489d9e753c853ee6ffc8/embed"
                                     captionLine1="Mogollon, Point of Pines Province, c. 1150-1280 CE"
-                                    captionLine2="Point of Pines Pueblo Graham Co., AZ"
+                                    captionLine2="Point of Pines Pueblo, Graham Co., AZ"
                                     captionLine3="UA Archaelogical Field School, 1952"
                                     potID="A-11451"
                                     path="/pot_imgs/archaeology/c1s1/A-11451_2006-960-image008.png"
@@ -294,10 +294,9 @@ export default function PotsPage(props) {
                                     name="Babicora Polychrome jar"
                                     captionLine1="Casas Grandes, Northern Sierra Province"
                                     captionLine2="C. 1250–1450 CE"
-                                    captionLine3="Sitio Colonia Enriquez, Río Casas Grandes,"
+                                    captionLine3="Sitio Colonia Enriquez, Río Casas Grandes, Chihuahua"
                                     captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                    captionLine5="Chihuahua"
-                                    captionLine6="McGinnis Collection"
+                                    captionLine5="McGinnis Collection"
                                     potID="GP38474"
                                     path="/pot_imgs/archaeology/c1s2/GP-38474_2006-905-53_scan02.png"
                                     has3DModel="false"
@@ -345,54 +344,54 @@ export default function PotsPage(props) {
                         </GridItem>
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                        name="Ramos Polychrome hooded human effigy jar, seated woman nursing infant"
-                                        captionLine1="Casas Grandes, Northern Sierra Province"
-                                        captionLine2="C. 1250–1450 CE"
-                                        captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
-                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                        captionLine5="Ledwidge Collection"
-                                        potID="GP3724"
-                                        path="img/pot-images/Col1/Shelf2/GP-3724.png"
-                                        has3DModel="false"
+                                    name="Ramos Polychrome hooded human effigy jar, seated woman nursing infant"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
+                                    captionLine2="C. 1250–1450 CE"
+                                    captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
+                                    captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                    captionLine5="Ledwidge Collection"
+                                    potID="GP3724"
+                                    path="img/pot-images/Col1/Shelf2/GP-3724.png"
+                                    has3DModel="false"
                                   />
                         </GridItem>
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                        name="Ramos Polychrome hooded human effigy jar, squatting man"
-                                        captionLine1="Casas Grandes, Northern Sierra Province"
-                                        captionLine2="C. 1250–1450 CE"
-                                        captionLine3="Paquimé vicinity, Río Casas Grandes, Chihuahua"
-                                        captionLine4="ASM Purchase, 1934"
-                                        captionLine5="Ledwidge Collection"
-                                        potID="20676"
-                                        path="/pot_imgs/archaeology/c1s2/20676_2006-905-72_scan1-adj.png"
-                                        has3DModel="false"
+                                    name="Ramos Polychrome hooded human effigy jar, squatting man"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
+                                    captionLine2="C. 1250–1450 CE"
+                                    captionLine3="Paquimé vicinity, Río Casas Grandes, Chihuahua"
+                                    captionLine4="ASM Purchase, 1934"
+                                    captionLine5="Ledwidge Collection"
+                                    potID="20676"
+                                    path="/pot_imgs/archaeology/c1s2/20676_2006-905-72_scan1-adj.png"
+                                    has3DModel="false"
                                   />
                         </GridItem>
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                        name="Villa Ahumada Polychrome effigy jar, macaw nesting pens on ends"
-                                        captionLine1="Casas Grandes, Northern Sierra Province"
-                                        captionLine2="C. 1250–1450 CE"
-                                        captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
-                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                        captionLine5="Ledwidge Collection"
-                                        potID="GP3710"
-                                        path="/pot_imgs/archaeology/c1s2/GP-3710_2006-905-77_scan1-adj.png"
-                                        has3DModel="false"
+                                    name="Villa Ahumada Polychrome effigy jar, macaw nesting pens on ends"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
+                                    captionLine2="C. 1250–1450 CE"
+                                    captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
+                                    captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                    captionLine5="Ledwidge Collection"
+                                    potID="GP3710"
+                                    path="/pot_imgs/archaeology/c1s2/GP-3710_2006-905-77_scan1-adj.png"
+                                    has3DModel="false"
                                   />
                         </GridItem>
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                        name="Villa Ahumada Polychrome jar"
-                                        captionLine1="Casas Grandes, Northern Sierra Province"
-                                        captionLine2="C. 1250–1450 CE"
-                                        captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
-                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                        captionLine5="Ledwidge Collection"
-                                        potID="GP3624"
-                                        path="/pot_imgs/archaeology/c1s2/Untitled-1.jpg"
-                                        has3DModel="false"
+                                    name="Villa Ahumada Polychrome jar"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
+                                    captionLine2="C. 1250–1450 CE"
+                                    captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
+                                    captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                    captionLine5="Ledwidge Collection"
+                                    potID="GP3624"
+                                    path="/pot_imgs/archaeology/c1s2/Untitled-1.jpg"
+                                    has3DModel="false"
                                   />
                         </GridItem>
                       </GridContainer>
@@ -414,7 +413,7 @@ export default function PotsPage(props) {
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                               <Pot 
                                     name="Ramos Polychrome jar"
-                                    captionLine1="Casas Grandes, Northern Sierra ProvinceRancho Corralit Gift of Gila Pueblo Foundation, 1950\n Ledwidge Collection\n GP3640"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
                                     captionLine2="C. 1250–1450 CE"
                                     captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
                                     captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -442,40 +441,41 @@ export default function PotsPage(props) {
                         <GridContainer justify='center'>
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                        name="Madera Black-on-red hooded macaw effigy jar"
-                                        captionLine2="C. 1250–1450 CE"
-                                        captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
-                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                        captionLine5="Houghton Collection"
-                                        potID="GP10195"
-                                        path="/pot_imgs/archaeology/c1s3/GP-10195_2006-905-161_scan01.png"
-                                        has3DModel="false"
+                                    name="Madera Black-on-red hooded macaw effigy jar"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
+                                    captionLine2="C. 1250–1450 CE"
+                                    captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
+                                    captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                    captionLine5="Houghton Collection"
+                                    potID="GP10195"
+                                    path="/pot_imgs/archaeology/c1s3/GP-10195_2006-905-161_scan01.png"
+                                    has3DModel="false"
                                   />
                         </GridItem>
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                        name="Ramos Polychrome jar, sculpted snakes"
-                                        captionLine1="Casas Grandes, Northern Sierra Province"
-                                        captionLine2="C. 1250–1450 CE"
-                                        captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
-                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                        captionLine5="Ledwidge Collection"
-                                        potID="GP3621"
-                                        path="/pot_imgs/archaeology/c1s3/GP-3621_2006-960-image011.png"
-                                        has3DModel="false"
+                                    name="Ramos Polychrome jar, sculpted snakes"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
+                                    captionLine2="C. 1250–1450 CE"
+                                    captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
+                                    captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                    captionLine5="Ledwidge Collection"
+                                    potID="GP3621"
+                                    path="/pot_imgs/archaeology/c1s3/GP-3621_2006-960-image011.png"
+                                    has3DModel="false"
                                   />
                         </GridItem>
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                        name="Ramos Polychrome bird effigy jar"
-                                        captionLine1=" Casas Grandes, Northern Sierra Province"
-                                        captionLine2="C. 1250–1450 CE"
-                                        captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
-                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                        captionLine5="Ledwidge Collection"
-                                        potID="GP3631"
-                                        path="/pot_imgs/archaeology/c1s3/GP-3631_2006-905-66_scan1-adj.png"
-                                        has3DModel="false"
+                                    name="Ramos Polychrome bird effigy jar"
+                                    captionLine1="Casas Grandes, Northern Sierra Province"
+                                    captionLine2="C. 1250–1450 CE"
+                                    captionLine3="Rancho Corralitos, Río Casas Grandes, Chihuahua"
+                                    captionLine4="Gift of Gila Pueblo Foundation, 1950"
+                                    captionLine5="Ledwidge Collection"
+                                    potID="GP3631"
+                                    path="/pot_imgs/archaeology/c1s3/GP-3631_2006-905-66_scan1-adj.png"
+                                    has3DModel="false"
                                   />
                         </GridItem>
                       </GridContainer>
@@ -511,7 +511,7 @@ export default function PotsPage(props) {
                                     name="El Paso Polychrome jar"
                                     captionLine1="Mogollon, Jornada Province"
                                     captionLine2="c. 1200–1400 CE"
-                                    captionLine3="Janos vicinity, Rio Casas Grandes, Chihuahua"
+                                    captionLine3="Janos vicinity, Río Casas Grandes, Chihuahua"
                                     captionLine4="Gift of Gila Pueblo Foundation, 1950"
                                     captionLine5="McGinnis Collection"
                                     potID="GP38642"
@@ -523,7 +523,7 @@ export default function PotsPage(props) {
                             <Pot 
                                         name="Mimbres Black-on-white (Style III) bowl"
                                         embded="https://sketchfab.com/models/c77f3be868824117aa9863607971304a/embed"
-                                        captionLine2=" Mogollon, Mimbres Province,"
+                                        captionLine2="Mogollon, Mimbres Province"
                                         captionLine3="c. 1000–1150 CE"
                                         captionLine4="Pruitt Ranch Site, Mimbres River Valley, Grant Co., NM"
                                         captionLine5="Gift of Gila Pueblo Foundation, 1950"
@@ -551,7 +551,7 @@ export default function PotsPage(props) {
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                         name="Mimbres Black-on-white (Style III) bowl"
-                                        captionLine1="Mogollon, Mimbres Province,"
+                                        captionLine1="Mogollon, Mimbres Province"
                                         captionLine2="c. 1000–1150 CE"
                                         captionLine3="Pruitt Ranch Site, Mimbres River Valley, Grant Co., NM"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -565,7 +565,7 @@ export default function PotsPage(props) {
                             <Pot 
                                         name="Puerco Black-on-red animal effigy pitcher"
                                         captionLine1="Mogollon, Upper Little Colorado Province"
-                                        captionLine2="c. 1000–1180 CE"
+                                        captionLine2="C. 1000–1180 CE"
                                         captionLine3="Nutria Canyon, McKinley Co., NM"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
                                         captionLine5="Cousins Collection"
@@ -577,7 +577,7 @@ export default function PotsPage(props) {
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                         name="Anchondo Red-on-brown jar"
-                                        captionLine1=" Mogollon, Northern Sierra Province,"
+                                        captionLine1="Mogollon, Northern Sierra Province,"
                                         captionLine2="C. 650–800 CE"
                                         captionLine3="Sitio Colonia Enriquez, Río Casas Grandes, Chihuahua"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -591,10 +591,9 @@ export default function PotsPage(props) {
                             <Pot 
                                         name="Tonto Polychrome pitcher"
                                         captionLine1="Salado, c. 1350–1450 CE"
-                                        captionLine2="C. 650–800 CE"
-                                        captionLine3="Gila Pueblo, Pinal Creek, Gila Co., AZ"
-                                        captionLine4="Gift of Gila Pueblo Foundation, 1950"
-                                        captionLine5="Excavated by Harold S. Gladwin, 1941"
+                                        captionLine2="Gila Pueblo, Pinal Creek, Gila Co., AZ"
+                                        captionLine3="Gift of Gila Pueblo Foundation, 1950"
+                                        captionLine4="Excavated by Harold S. Gladwin, 1941"
                                         potID="GP50570"
                                         path="/pot_imgs/archaeology/c1s4/GP-50570_2006-960-image023.png"
                                         has3DModel="false"
@@ -648,7 +647,7 @@ export default function PotsPage(props) {
                                     name="Alma Knobby shell trumpet effigy"
                                     captionLine1="Mogollon, Point of Pines Province"
                                     captionLine2="C. 1150–1265 CE"
-                                    captionLine3="Point of Pines Province, Graham Co., AZ"
+                                    captionLine3="AZ W:9:118 (ASM), Graham Co., AZ"
                                     captionLine4="UA Archaeological Field School, 1952"
                                     potID="A-11744"
                                     path="/pot_imgs/archaeology/c1s5/A-11744_2006-905-149_scan1-adj.png"
@@ -658,10 +657,11 @@ export default function PotsPage(props) {
                         <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                         name="Ramos Black bowl"
-                                        captionLine2="Casas Grandes, Northern Sierra Province"
-                                        captionLine3="C. 1250–1450 CE"
-                                        captionLine4="Paquimé, Río Casas Grandes, Chihuahua"
-                                        captionLine5="ASM Purchase, 1926\n Gray Collection"
+                                        captionLine1="Casas Grandes, Northern Sierra Province"
+                                        captionLine2="C. 1250–1450 CE"
+                                        captionLine3="Paquimé, Río Casas Grandes, Chihuahua"
+                                        captionLine4="ASM Purchase, 1926"
+                                        captionLine5="Gray Collection"
                                         potID="214462-X-2"
                                         path="/pot_imgs/archaeology/c1s5/2006-960-image005.png"
                                         has3DModel="false"
