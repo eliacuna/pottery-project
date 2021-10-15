@@ -747,8 +747,8 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Tizon Brown Ware jar, native repairs with lac"
-                                        captionLine1="Upland Patayan or historic Hualapai\"
-                                        captionLine2="Hassayampa Province"
+                                        captionLine1="Upland Patayan or historic Hualapai"
+                                        captionLine2="Harquahala Province"
                                         captionLine3="C. 1600?–1900? CE"
                                         captionLine4="Harquahala Mountains, Maricopa Co., AZ"
                                         captionLine5="Gift of a Museum Friend, 1942"
@@ -828,8 +828,8 @@ export default function PotsPage(props) {
                                         name="Santa Cruz Red-on-buff jar, burden carrier motifs"
                                         captionLine1="Hohokam, Gila Bend Province"
                                         captionLine2="C. 850–1000 CE"
-                                        captionLine3="Zeta Site, Painted Rock Reservoir, Maricopa Co., AZ"
-                                        captionLine4="Gift of Ethel Crane Allen, 1997"
+                                        captionLine3="Four Mile Site, Painted Rock Reservoir, Maricopa Co., AZ"
+                                        captionLine4="Gift of Norton Allen and Ethel Crane Allen, 1994"
                                         captionLine5="Allen Collection"
                                         potID="94-134-442"
                                         path="/pot_imgs/archaeology/c2s3/94-134-442_2006-960-image058.png"
@@ -922,7 +922,7 @@ export default function PotsPage(props) {
                                         name="Sacaton Red-on-buff plate, water bird with fish"
                                         captionLine1="Hohokam, Gila Bend Province"
                                         captionLine2=" C. 950–1150 CE"
-                                        captionLine3="Escuela Site, Painted Rock Reservoir\n Maricopa Co., AZ"
+                                        captionLine3="Escuela Site, Painted Rock Reservoir, Maricopa Co., AZ"
                                         captionLine4="Gift of Ethel Crane Allen, 1997"
                                         captionLine5="Allen Collection"
                                         potID="97-194-149"
@@ -946,9 +946,9 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Gila Plain jar"
-                                        captionLine1="Hohokam, Salt-Gila Province"
+                                        captionLine1="Hohokam, Gila Bend Province"
                                         captionLine2="C. 650–1150 CE"
-                                        captionLine3="Three Mile Site, Painted Rock Reservoir; Maricopa Co., AZ"
+                                        captionLine3="Three Mile Site, Painted Rock Reservoir, Maricopa Co., AZ"
                                         captionLine4="Gift of Ethel Crane Allen, 1997"
                                         captionLine5="Allen Collection"
                                         potID="97-194-562"
@@ -963,7 +963,7 @@ export default function PotsPage(props) {
                                         name="Gila Plain: Tucson Variety boot pitcher"
                                         captionLine1="Hohokam, Tucson Province"
                                         captionLine2="C. 1300–1450 CE"
-                                        captionLine3="University Indian Ruin, Tucson; Pima Co., AZ"
+                                        captionLine3="University Indian Ruin, Tucson, Pima Co., AZ"
                                         captionLine4="UA Archaeological Project, 1931–1937"
                                         potID="23778"
                                         path="/pot_imgs/archaeology/c2s5/23778_14.png"
@@ -975,7 +975,7 @@ export default function PotsPage(props) {
                                         name="Sacaton Red bowl"
                                         captionLine1="Hohokam, Gila Bend Province"
                                         captionLine2="C. 950–1150 CE"
-                                        captionLine3="Three Mile Site, Painted Rock Reservoir; Maricopa Co., AZ"
+                                        captionLine3="Three Mile Site, Painted Rock Reservoir, Maricopa Co., AZ"
                                         captionLine4="Gift of Ethel Crane Allen, 1997"
                                         captionLine5="Allen Collection"
                                         potID="97-194-705"
@@ -1092,7 +1092,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Chaco Black-on-white pitcher"
-                                        captionLine1="Ancestral Pueblo (Anasazi) Chaco Province"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Chaco Province"
                                         captionLine2="c. 1050–1125 CE"
                                         captionLine3="Gallup vicinity, McKinley Co., NM"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -1107,7 +1107,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Mesa Verde Black-on-white double mug"
-                                        captionLine1="Ancestral Pueblo (Anasazi) Mesa Verde Province"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Mesa Verde Province"
                                         captionLine2="c. 1200–1300 CE"
                                         captionLine3="Dove Creek vicinity, Dolores Co., CO"
                                         captionLine4="Gift of Ethel Crane Allen, 1998"
@@ -1120,7 +1120,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Chapin Black-on-white bowl"
-                                        captionLine1="Ancestral Pueblo (Anasazi) Mesa Verde Province"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Mesa Verde Province"
                                         captionLine2="c. 575–900 CE"
                                         captionLine3="Animas Mountain, La Plata Co., CO"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -1133,7 +1133,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Kiet Siel Polychrome canteen"
-                                        captionLine1="Ancestral Pueblo (Anasazi) Kayenta Province"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
                                         captionLine2="c. 1250–1300 CE"
                                         captionLine3="Flagstaff vicinity, Coconino Co., AZ"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -1148,7 +1148,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Tusayan Black-on- red seed jar"
-                                        captionLine1="Ancestral Pueblo (Anasazi) Kayenta Province"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
                                         captionLine2="c. 1050–1200 CE"
                                         captionLine3="Kayenta vicinity, Navajo Co., AZ"
                                         captionLine4="Gift of a Museum Friend, 1946"
@@ -1161,7 +1161,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="White Mound Black-on white bird effigy jar"
-                                        captionLine1="Ancestral Pueblo (Anasazi) Chaco Province"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Chaco Province"
                                         captionLine2="C. 675–900 CE"
                                         captionLine3="White Mound Village, Rio Puerco, Apache Co., AZ"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -1174,7 +1174,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Jeddito Black-on-yellow bowl (not visible)"
-                                        captionLine1="Early Hopi, Tusayan Province\"
+                                        captionLine1="Early Hopi, Tusayan Province"
                                         captionLine2="C. 1375–1630 CE"
                                         captionLine3="Awat’ovi, Antelope Mesa, Navajo Co., AZ"
                                         captionLine4="Gift of Gila Pueblo Foundation, 1950"
@@ -1269,9 +1269,9 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
                                         name="Basketmaker Mudware bowl"
-                                        captionLine1="Ancestral Pueblo (Anasazi)\n Kayenta Province"
+                                        captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
                                         captionLine2="C. 575–700 CE"
-                                        captionLine3="Broken Flute Cave, Prayer Rock District\n  Apache Co., AZ"
+                                        captionLine3="Broken Flute Cave, Prayer Rock District, Apache Co., AZ"
                                         captionLine4="Gift of Carnegie Institution, 1957"
                                         captionLine5="Excavated by Earl H. Morris, 1931"
                                         potID="A-14380"
@@ -1284,7 +1284,7 @@ export default function PotsPage(props) {
                                         name="Obelisk Gray seed jar"
                                         captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
                                         captionLine2="C. 450-800 CE"
-                                        captionLine3="Cave II, Prayer Rock District Apache Co., AZ"
+                                        captionLine3="Cave II, Prayer Rock District, Apache Co., AZ"
                                         captionLine4="Gift of Carnegie Institution, 1957"
                                         captionLine5="Excavated by Earl H. Morris, 1931"
                                         potID="A-14304"
@@ -1294,7 +1294,7 @@ export default function PotsPage(props) {
                           </GridItem>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
-                                        name="Potsuwi`i Inised canteen"
+                                        name="Potsuwi'i Incised canteen"
                                         captionLine1="Early Tewa, Chama Province"
                                         captionLine2="C. 1450–1500 CE"
                                         captionLine3="Poshu'ouinge, Rio Chama, Rio Arriba Co., NM"
@@ -1310,7 +1310,7 @@ export default function PotsPage(props) {
                                         name="Tusayan Corrugated jar"
                                         captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
                                         captionLine2="C. 950-1300 CE"
-                                        captionLine3="Broken Flute Cave, Prayer Rock District Apache Co., AZ"
+                                        captionLine3="Broken Flute Cave, Prayer Rock District, Apache Co., AZ"
                                         captionLine4="Gift of Carnegie Institution, 1957"
                                         captionLine5="Excavated by Earl H. Morris, 1931"
                                         potID="A-14404"
@@ -1325,7 +1325,7 @@ export default function PotsPage(props) {
                                         name="Lino Gray seed jar"
                                         captionLine1="Ancestral Pueblo (Anasazi), Kayenta Province"
                                         captionLine2="C. 575-875 CE"
-                                        captionLine3="Cave VIII, Prayer Rock District Apache Co., AZ"
+                                        captionLine3="Cave VIII, Prayer Rock District, Apache Co., AZ"
                                         captionLine4="Gift of Carnegie Institution, 1957"
                                         captionLine5="Excavated by Earl H. Morris, 1931"
                                         potID="A-14360"
