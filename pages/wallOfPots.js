@@ -1373,7 +1373,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                           name="Hopi Polychrome jar"
-                                          captionLine1="Palhikwmana (Moisture-drinking Maiden), Katsina design"
+                                          captionLine1="Palhikwmana (Moisture-drinking Maiden) Katsina design"
                                           captionLine2="C. 1920"
                                           captionLine3="Hopi Mesas, AZ"
                                           captionLine4="Collector Unknown"
@@ -1412,7 +1412,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Laguna Polychrome jar"
                                           embed="https://sketchfab.com/models/5ab8d1b3ec944c1e87725835f617ec7b/embed"
-                                          captionLine1="Possibly by Tzu-chey (Minnie Slice)"
+                                          captionLine1="Possibly by Tzu-chey (Minnie Sice)"
                                           captionLine2="C. 1900"
                                           captionLine3="Pueblo Laguna, NM"
                                           captionLine4="Gift of Mary T. Fitzmaurice"
@@ -1473,7 +1473,7 @@ export default function PotsPage(props) {
                             <GridItem xs={6} sm={3} md={3} lg={4}>
                               <Pot 
                                           name="Zuni Polychrome jar"
-                                          captionLine1="Noreen Simplico"
+                                          captionLine1="Noreen Simplicio"
                                           captionLine2="2004"
                                           captionLine3="Pueblo of Zuni, NM"
                                           captionLine4="ASM Purchase, VP for Research"
@@ -1485,11 +1485,11 @@ export default function PotsPage(props) {
                             </GridItem>
                             <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
-                                          name="Zuni jar with Appliqué Frogs"
+                                          name="Zuni jar with appliqué frogs"
                                           captionLine1="C. 1930"
                                           captionLine2="Pueblo of Zuni, NM"
                                           captionLine3="Gift of Toni Elmore"
-                                          captionLine4="Collected by Nelle A. Dermont"
+                                          captionLine4="Collected by Francis H. Elmore"
                                           potID="97-156-54"
                                           path="/pot_imgs/ethnology/c4s3/97-156-54_2006-960-image286.png"
                                           has3DModel="false"
@@ -1501,7 +1501,7 @@ export default function PotsPage(props) {
                                           captionLine1="C. 1890"
                                           captionLine2="Pueblo of Zuni, NM"
                                           captionLine3="Gift of Arizona Archaeological and Historical Society"
-                                          captionLine4="Collected by Joshua A. Miller"
+                                          captionLine4="Collected by Dr. Joshua A. Miller"
                                           potID="4167"
                                           path="/pot_imgs/ethnology/c4s3/4167_2006-960-image273.png"
                                           has3DModel="false"
@@ -1616,7 +1616,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Hopi-Tewa Polychrome jar"
                                           captionLine1="Nampeyo and Fannie Nampeyo"
-                                          captionLine2="C. 1923"
+                                          captionLine2="1923"
                                           captionLine3="Hopi Mesas, AZ"
                                           captionLine4="Gift of Mrs. Charles Morgan (Nan) Wood"
                                           captionLine5="Collected by Charles Morgan Wood"
@@ -1629,7 +1629,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Hopi/Isleta Polychrome jar"
                                           captionLine1="Karen Abeita"
-                                          captionLine2="C. 2006"
+                                          captionLine2="2006"
                                           captionLine3="Hopi Mesas, AZ"
                                           captionLine4="Gift of Milton and Anita Katz"
                                           potID="2006-1052-23"
@@ -1643,7 +1643,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Hopi-Tewa Polychrome seed jar"
                                           captionLine1="Hisi Nampeyo"
-                                          captionLine2="C. 2000"
+                                          captionLine2="2000"
                                           captionLine3="Hopi Mesas, AZ"
                                           captionLine4="Gift of Milton and Anita Katz"
                                           potID="2006-1052-19"
@@ -1667,7 +1667,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Hopi-Tewa Polychrome jar"
                                           captionLine1="Leah Nampeyo"
-                                          captionLine2="C. 1970"
+                                          captionLine2="1970"
                                           captionLine3="Hopi Mesas, AZ"
                                           captionLine4="Gift of Margaret Beecher"
                                           potID="2004-14-32"
@@ -1702,7 +1702,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Zia Polychrome jar"
                                           captionLine1="Ruby Panana"
-                                          captionLine2="C. 2002"
+                                          captionLine2="2002"
                                           captionLine3="Pueblo of Zia, NM"
                                           captionLine4="ASM Purchase"
                                           potID="2002-78-1"
@@ -1811,7 +1811,7 @@ export default function PotsPage(props) {
                               <Pot 
                                           name="Cochiti Storyteller Figure"
                                           captionLine1="Delfino Trancosa"
-                                          captionLine2="C. 1978"
+                                          captionLine2="1978"
                                           captionLine3="Pueblo of Cochiti, NM"
                                           captionLine4="Gift of Dr. Barbara Babcock"
                                           potID="86-69-1"
@@ -1847,7 +1847,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Santa Clara jar with Painted Matachin Dance"
                                           captionLine1="Lois Gutierrez de la Cruz"
-                                          captionLine2="C. 2002"
+                                          captionLine2="2002"
                                           captionLine3="Pueblo of Santa Clara, NM"
                                           captionLine4="Gift of Milton and Anita Katz"
                                           potID="2006-1052-10"
@@ -1886,7 +1886,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="San Ildefonso Polychrome jar"
                                           captionLine1="Maria and Julian Martinez"
-                                          captionLine2="C. 1920"
+                                          captionLine2="1920"
                                           captionLine3="Pueblo of San Ildefonso, NM"
                                           captionLine4="Collected by Byron Cummings"
                                           potID="12207"
@@ -1898,7 +1898,7 @@ export default function PotsPage(props) {
                               <Pot 
                                           name="Jemez Bat Bowl"
                                           captionLine1="Verda Toledo"
-                                          captionLine2="C. 2006"
+                                          captionLine2="2006"
                                           captionLine3="Pueblo of Jemez, NM"
                                           captionLine4="Gift of a Museum Friend"
                                           potID="2006-166-1"
@@ -1921,8 +1921,8 @@ export default function PotsPage(props) {
                             <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                           name="Cochiti Ram Effigy Pitcher"
-                                          captionLine1="Teresitsa Romero"
-                                          captionLine2="C. 1962"
+                                          captionLine1="Teresita Romero"
+                                          captionLine2="1962"
                                           captionLine3="Pueblo of Cochiti, NM"
                                           captionLine4="ASM Purchase by Wilma Kaemlein"
                                           potID="E-5340"
