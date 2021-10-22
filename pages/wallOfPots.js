@@ -256,7 +256,7 @@ export default function PotsPage(props) {
                                     embed="https://sketchfab.com/models/5866a04d3c04489d9e753c853ee6ffc8/embed"
                                     captionLine1="Mogollon, Point of Pines Province, c. 1150-1280 CE"
                                     captionLine2="Point of Pines Pueblo, Graham Co., AZ"
-                                    captionLine3="UA Archaelogical Field School, 1952"
+                                    captionLine3="UA Archaeological Field School, 1952"
                                     potID="A-11451"
                                     path="/pot_imgs/archaeology/c1s1/A-11451_2006-960-image008.png"
                                     has3DModel="true"
@@ -1958,7 +1958,7 @@ export default function PotsPage(props) {
                                           embded="https://sketchfab.com/models/be9ec6f5613e48ad86d67049011c1cb3/embed"
                                           captionLine1="C. 1900"
                                           captionLine2="Laveen, AZ"
-                                          captionLine3="Gift of B.D Butler"
+                                          captionLine3="Gift of B.D. Butler"
                                           captionLine4="Collected by Caroline Smurthwaite and Ann Eliza Connell"
                                           potID="22766"
                                           path="/pot_imgs/ethnology/c6s1/22766_2006-960-image163.png"
@@ -1980,7 +1980,7 @@ export default function PotsPage(props) {
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                           name="Warihío appliqué jar"
-                                          captionLine1="C. 1980"
+                                          captionLine1="1980"
                                           captionLine2="Loreto, Chihuahua"
                                           captionLine3="Gift of the UA Foundation President's Club"
                                           captionLine4="Collected by Roberto Ruiz and Edmond Faubert"
@@ -2004,9 +2004,9 @@ export default function PotsPage(props) {
                               <Pot 
                                           name="Tarahumara (Rarámuri) painted jar"
                                           captionLine1="Juana Peinado"
-                                          captionLine2="C. 1972"
+                                          captionLine2="1972"
                                           captionLine3="Guachochi, Chihuahua"
-                                          captionLine4="Gift of the UA President's Club"
+                                          captionLine4="Gift of the UA Foundation President's Club"
                                           captionLine5="Collected by Edmond Faubert"
                                           potID="78-53-88"
                                           path="/pot_imgs/ethnology/c6s2/78-53-88_2006-960-image192.png"
@@ -2017,9 +2017,9 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Tarahumara (Rarámuri) painted jar"
                                           captionLine1="Rosa Nava"
-                                          captionLine2="C. 1977"
+                                          captionLine2="1977"
                                           captionLine3="Panalachic, Chihuahua"
-                                          captionLine4="Gift of the UA President's Club"
+                                          captionLine4="Gift of the UA Foundation President's Club"
                                           captionLine5="Collected by Edmond Faubert"
                                           potID="77-33-14"
                                           path="/pot_imgs/ethnology/c6s2/77-33-14_2006-960-image187.png"
@@ -2029,9 +2029,9 @@ export default function PotsPage(props) {
                             <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                           name="Tarahumara (Rarámuri) pitcher and lid"
-                                          captionLine1="C. 1979"
+                                          captionLine1="1979"
                                           captionLine2="Guachochi, Chihuahua"
-                                          captionLine3="Gift of the UA President's Club"
+                                          captionLine3="Gift of the UA Foundation President's Club"
                                           captionLine4="Collected by Edmond Faubert"
                                           potID="78-53-89"
                                           path="/pot_imgs/ethnology/c6s2/78-53-80_2006-960-image194.png"
@@ -2065,9 +2065,9 @@ export default function PotsPage(props) {
                               <Pot 
                                           name="Tohono O'odham singing figure"
                                           captionLine1="Rupert Angea"
-                                          captionLine2="C. 2006"
+                                          captionLine2="2006"
                                           captionLine3="Hickiwan, AZ"
-                                          captionLine4="Loaned by Reuben Naranjo"
+                                          captionLine4="Loaned by Reuben Naranjo, 2006"
                                           potID="2008-511-1"
                                           path="/pot_imgs/ethnology/c6s3/2008-511-1_2006-960-image200.png"
                                           has3DModel="false"
@@ -2079,8 +2079,7 @@ export default function PotsPage(props) {
                                           captionLine1="Rupert Angea"
                                           captionLine2="C. 1970"
                                           captionLine3="Hickiwan, AZ"
-                                          captionLine4="ASM Purchase, John Tanner Fund"
-                                          captionLine5="From Michael Higgins"
+                                          captionLine4="ASM Purchase from Michael Higgins, John Tanner Fund"
                                           potID="2006-918-1"
                                           path="/pot_imgs/ethnology/c6s3/2006-918-1_2006-905-35_scan1-adj.png"
                                           has3DModel="false"
@@ -2115,7 +2114,7 @@ export default function PotsPage(props) {
                             <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
                                           name="Tohono O'odham (?) human effigy jar"
-                                          captionLine1="C. 1920"
+                                          captionLine1="1920"
                                           captionLine2="Southern Arizona"
                                           captionLine3="Collected by Douglas Gray"
                                           potID="14465"
@@ -2150,9 +2149,9 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Pee Posh wedding jar"
                                           captionLine1="Mabel Sunn"
-                                          captionLine2="C. 1971"
+                                          captionLine2="1971"
                                           captionLine3="ASM Purchase"
-                                          captionLine4="Arzona Archaeological and Historical Discretionary Fund"
+                                          captionLine4="Arizona Archaeological and Historical Discretionary Fund"
                                           potID="E-9764"
                                           path="/pot_imgs/ethnology/c6s3/E-9764_2006-960-image183.png"
                                           has3DModel="false"
@@ -2164,7 +2163,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Mojave doll figures"
                                           captionLine1="Attributed to Annie Fields"
-                                          captionLine2="Left: C. 1960, Right: C. 1961"
+                                          captionLine2="Left: c. 1960, Right: 1961"
                                           captionLine3="Needles, CA"
                                           captionLine4="Left: Collected by Sally Harris Pierce"
                                           captionLine5="Right: ASM Purchase, Arizona Archaeological and Historical Society Discretionary Fund"
@@ -2189,7 +2188,7 @@ export default function PotsPage(props) {
                               <Pot 
                                           name="Mojave bowl with handle and figures"
                                           captionLine1="Annie Fields"
-                                          captionLine2="C. 1959"
+                                          captionLine2="1959"
                                           captionLine3="Needles, CA"
                                           captionLine4="Gift of Paul Long"
                                           potID="E-3754"
@@ -2247,7 +2246,7 @@ export default function PotsPage(props) {
                             </GridItem>
                             <GridItem xs={6} sm={3} md={3} lg={4}>
                               <Pot 
-                                          name="Quechan Red-on-buff jar"
+                                          name="Quechan Red-on-buff bowl"
                                           captionLine1="C. 1900"
                                           captionLine2="Fort Yuma, AZ"
                                           captionLine3="Collected by Herbert Brown"
@@ -2261,7 +2260,7 @@ export default function PotsPage(props) {
                                           name="Quechan doll figures"
                                           captionLine1="C. 1900"
                                           captionLine2="Left: Lower Colorado River"
-                                          captionLine3="Right: Fort Yuma Reseveration"
+                                          captionLine3="Right: Fort Yuma Reservation"
                                           captionLine4="Left: Gift of Ellyn Teskey"
                                           captionLine5="Right: Collected by Herbert Brown"
                                           potID="Left: 80-57-2, Right: 23055-X-9"
@@ -2275,7 +2274,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Navajo jar with sculpted rim"
                                           captionLine1="Sue Ann Williams"
-                                          captionLine2="C. 2005"
+                                          captionLine2="2005"
                                           captionLine3="Shonto, AZ"
                                           captionLine4="Gift of Bobette Levy"
                                           potID="2005-999-1"
@@ -2298,7 +2297,7 @@ export default function PotsPage(props) {
                               <Pot 
                                           name="Navajo drum pot"
                                           captionLine1="Rose Williams"
-                                          captionLine2="C. 2005"
+                                          captionLine2="2005"
                                           captionLine3="Shonto, AZ"
                                           captionLine4="Collected from the artist"
                                           potID="2005-338-1"
@@ -2310,7 +2309,7 @@ export default function PotsPage(props) {
                           <Pot 
                                           name="Navajo cooking-style jar"
                                           captionLine1="Alice Cling"
-                                          captionLine2="C. 1990"
+                                          captionLine2="1990"
                                           captionLine3="Shonto, AZ"
                                           captionLine4="Collected by Jan Bell"
                                           potID="90-74-1"
@@ -2322,8 +2321,8 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Picuris Pueblo micaceous 'rain god'"
                                           captionLine1="Pueblo of Picuris, NM"
-                                          captionLine2="Arizona Arizona Archaeological and Historical Society"
-                                          captionLine3="Discrentionary Fund Purchase"
+                                          captionLine2="Arizona Archaeological and Historical Society"
+                                          captionLine3="Discretionary Fund Purchase"
                                           captionLine4="by Wilma Kaemlein, 1958"
                                           potID="E-3674"
                                           path="/pot_imgs/ethnology/c6s5/e-3674_image1.png"
@@ -2336,7 +2335,7 @@ export default function PotsPage(props) {
                             <Pot 
                                           name="Nambe Pueblo micaceous jar and lid"
                                           captionLine1="Lonnie Vigil"
-                                          captionLine2="C. 1988"
+                                          captionLine2="1988"
                                           captionLine3="Pueblo of Nambe, NM"
                                           captionLine4="Collected by Jan Bell"
                                           potID="89-81-1"
@@ -2360,7 +2359,7 @@ export default function PotsPage(props) {
                                           name="Jicarilla Apache micaceous jar and lid"
                                           embed="https://sketchfab.com/models/fcbeaa75a9e745b283a8175fadfb2131/embed"
                                           captionLine1="Sheldon Nunez-Velarde"
-                                          captionLine2="C. 2004"
+                                          captionLine2="2004"
                                           captionLine3="Dulce, NM"
                                           captionLine4="ASM Purchase"
                                           captionLine5="VP for Research Richard Powell funds"
@@ -2373,7 +2372,7 @@ export default function PotsPage(props) {
                           <Pot 
                                           name="Santa Clara Pueblo jar and lid"
                                           captionLine1="Edna Romero"
-                                          captionLine2="C. 2002"
+                                          captionLine2="2002"
                                           captionLine3="Pueblo of Taos, NM"
                                           captionLine4="ASM Purchase from the artist"
                                           potID="2002-79-1"
@@ -2385,7 +2384,7 @@ export default function PotsPage(props) {
                           <Pot 
                                           name="Navajo terraced jar"
                                           captionLine1="Michelle Willams"
-                                          captionLine2="C. 2005"
+                                          captionLine2="2005"
                                           captionLine3="Shonto, AZ"
                                           captionLine4="Gift of Bobette Levy"
                                           potID="2005-999-2"
