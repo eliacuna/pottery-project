@@ -797,7 +797,7 @@ export default function PotsPage(props) {
                           </GridItem>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
-                                        name="Gila Plain jar\"
+                                        name="Gila Plain jar"
                                         captionLine1="Hohokam, Gila Bend Province"
                                         captionLine2="C. 650–1150 CE"
                                         captionLine3="Three Mile Site, Painted Rock Reservoir, Maricopa Co., AZ"
