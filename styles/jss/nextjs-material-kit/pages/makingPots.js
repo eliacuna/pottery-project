@@ -8,6 +8,7 @@ const makingPotsStyle = {
         ...cardTitle,
         fontFamily: "serif",
         textAlign: "center",
+        color: "black",
     },
     card: {
         ...card,

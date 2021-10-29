@@ -17,7 +17,7 @@ export default function ActionAreaCard({card}) {
         <div>
             {/* dont know what sx={maxWidth: 345} does*/}
             
-                <a href={card.href}>
+                <Link href={card.href}>
             <Card className={classes.card}>
             
               <CardActionArea> 
@@ -32,7 +32,7 @@ export default function ActionAreaCard({card}) {
                </CardActionArea>
                
             </Card>
-            </a>
+            </Link>
             
         </div>
     );

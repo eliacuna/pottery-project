@@ -36,11 +36,11 @@ import styles from "styles/jss/nextjs-material-kit/pages/makingPots.js";
 
 // Sections for this page
 import Introduction   from "pages-sections/MakingPots-Sections/Introduction.js";
-import Decoration     from "pages-sections/MakingPots-Sections/Decoration.js";
-import PaddleAndAvil  from "pages-sections/MakingPots-Sections/PaddleAndAvil.js";
-import CoilAndScrape  from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
-import MakingIntro from "pages-sections/MakingPots-Sections/MakingIntro.js";
-import Sequence from "pages-sections/MakingPots-Sections/Sequence.js";
+//import Decoration     from "pages-sections/MakingPots-Sections/Decoration.js";
+//import PaddleAndAvil  from "pages-sections/MakingPots-Sections/PaddleAndAvil.js";
+//import CoilAndScrape  from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
+//import MakingIntro from "pages-sections/MakingPots-Sections/MakingIntro.js";
+//import Sequence from "pages-sections/MakingPots-Sections/Sequence.js";
 import SectionCard from "pages-sections/MakingPots-Sections/SectionCard.js";
 
 const useStyles = makeStyles(styles);
@@ -59,25 +59,24 @@ export default function MakingPots(props) {
   
   const cards = [
     {
-        img:"/img/2014-41-073_scan1.jpg",
-        desc:"Paddle and Anvil",
-        href: "../pages-sections/MakingPots-Sections/PaddleAndAvil.js"
-        
+        img:"img/53104_scan2.jpg",
+        desc:"Preparing Clay",
+        href:"/preparingClay"
     },
     {
         img:"img/c-27562_scan01.jpg",
-        desc:"Coil and Scrape",
-        href: "../pages-sections/MakingPots-Sections/CoilAndScrape.js"
+        desc:"Constructing Pots",
+        href:"/constructingPots"
     },
     {
-        img:"img/c-27676_scan01.jpg",
-        desc:"Pottery Decoration",
-        href: "../pages-sections/MakingPots-Sections/Decoration.js"
+        img:"img/lazaro--jody_2009_14.jpg",
+        desc:"Decorating Pots",
+        href: "/decoratingPots"
     },
     {
-        img:"img/c-28199_scan1.jpg",
-        desc:"Making Pottery",
-        href: "../pages-sections/MakingPots-Sections/MakingIntro.js"
+        img:"img/c-28199_scan1.jpg", // which picture to use?
+        desc:"Pottery Making Sequence",
+        href: "/potteryMakingSequence"
     }
 ];
   
@@ -107,26 +106,16 @@ export default function MakingPots(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
 
-      <Introduction />     
+        <Introduction />     
+        <Grid container spacing={4} justify="center">
+          {cards.map(card => (
+            <Grid item key={card}>
+              <SectionCard card={card}/>
+            </Grid>
+          ))}
+        </Grid>
 
-      <Grid container spacing={4} justify="center">
-        {cards.map(card => (
-          <Grid item key={card}>
-            <SectionCard card={card}/>
-          </Grid>
-        ))}
-      </Grid>
-      
-            
-            <GridContainer justify="center"> 
-              
-              <PaddleAndAvil />
-              <CoilAndScrape />
-              <Decoration />
-              <MakingIntro />
-              <Sequence />
-            </GridContainer>
-          </div>
+      </div>
       <Footer />
     </div>
   );
