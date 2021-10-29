@@ -94,7 +94,7 @@ export default function MakingPots(props) {
         {...rest}
       />
 
-      <Parallax small filter responsive image="/img/exhibit.jpeg">
+      <Parallax small filter responsive image="/img/c-27607_scan01.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
