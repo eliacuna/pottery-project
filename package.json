@@ -2,7 +2,7 @@
   "name": "wall-of-pots",
   "version": "1.2.0",
   "description": "Virtual experience for The Pottery Project at the Arizona State Museum",
-  "main": "landing",
+  "main": "/landing",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",

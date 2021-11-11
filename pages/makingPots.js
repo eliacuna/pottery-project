@@ -30,18 +30,21 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogActions from "@material-ui/core/DialogActions";
 
-import styles from "styles/jss/nextjs-material-kit/pages/wallOfPots.js";
+import Grid from "@material-ui/core/Grid";
+
+import styles from "styles/jss/nextjs-material-kit/pages/makingPots.js";
 
 // Sections for this page
 import Introduction   from "pages-sections/MakingPots-Sections/Introduction.js";
-import Decoration     from "pages-sections/MakingPots-Sections/Decoration.js";
-import PaddleAndAvil  from "pages-sections/MakingPots-Sections/PaddleAndAvil.js";
-import CoilAndScrape  from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
-import MakingIntro from "pages-sections/MakingPots-Sections/MakingIntro.js";
-import Sequence from "pages-sections/MakingPots-Sections/Sequence.js";
-//import SectionCard from "pages-sections/MakingPots-Sections/SectionCard.js";
+//import Decoration     from "pages-sections/MakingPots-Sections/Decoration.js";
+//import PaddleAndAvil  from "pages-sections/MakingPots-Sections/PaddleAndAvil.js";
+//import CoilAndScrape  from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
+//import MakingIntro from "pages-sections/MakingPots-Sections/MakingIntro.js";
+//import Sequence from "pages-sections/MakingPots-Sections/Sequence.js";
+import SectionCard from "pages-sections/MakingPots-Sections/SectionCard.js";
 
 const useStyles = makeStyles(styles);
+
 
 export default function MakingPots(props) {
   const [classicModal, setClassicModal] = React.useState(false);
@@ -53,6 +56,30 @@ export default function MakingPots(props) {
     classes.imgFluid
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
+  
+  const cards = [
+    {
+        img:"img/53104_scan2.jpg",
+        desc:"Preparing Clay",
+        href:"/preparingClay"
+    },
+    {
+        img:"img/c-27562_scan01.jpg",
+        desc:"Constructing Pots",
+        href:"/constructingPots"
+    },
+    {
+        img:"img/lazaro--jody_2009_14.jpg",
+        desc:"Decorating Pots",
+        href: "/decoratingPots"
+    },
+    {
+        img:"img/c-28199_scan1.jpg", // which picture to use?
+        desc:"Pottery Making Sequence",
+        href: "/potteryMakingSequence"
+    }
+];
+  
   return (
     <div>
       <Header
@@ -66,7 +93,8 @@ export default function MakingPots(props) {
         }}
         {...rest}
       />
-      <Parallax small filter responsive image="/img/exhibit.jpeg">
+
+      <Parallax small filter responsive image="/img/c-27607_scan01.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -77,15 +105,17 @@ export default function MakingPots(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-            <GridContainer justify="center"> 
-              <Introduction />
-              <PaddleAndAvil />
-              <CoilAndScrape />
-              <Decoration />
-              <MakingIntro />
-              <Sequence />
-            </GridContainer>
-          </div>
+
+        <Introduction />     
+        <Grid container spacing={4} justify="center">
+          {cards.map(card => (
+            <Grid item key={card}>
+              <SectionCard card={card}/>
+            </Grid>
+          ))}
+        </Grid>
+
+      </div>
       <Footer />
     </div>
   );

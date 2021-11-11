@@ -225,7 +225,7 @@ export default function PotsPage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter responsive image="/img/exhibit.jpeg">
+      <Parallax small filter responsive image="/img/pvig_2008_19.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={6} sm={3} md={6}>
