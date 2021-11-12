@@ -32,7 +32,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Arizona State Museum"
+        brand="The Pottery Project"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -47,8 +47,8 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>The Pottery Project</h1>
               <h4>
-                Welcome to the Arizona State Museum's online experience for the
-                Pottery Project exhibit.
+                Welcome to Arizona State Museum's online version of the
+                Pottery Project exhibit at the museum.
               </h4>
               <br />
               

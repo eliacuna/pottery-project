@@ -25,6 +25,11 @@ class MyDocument extends Document {
             href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
             rel="stylesheet"
           />
+          <link 
+            href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" 
+            rel="stylesheet"
+          />
+
         </Head>
         <body>
           <div id="page-transition"></div>

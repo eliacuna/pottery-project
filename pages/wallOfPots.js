@@ -244,7 +244,7 @@ export default function PotsPage(props) {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Column 1",
+                      tabButton: "Ethnographic AZ, NM, North MX",
                       tabIcon: Filter1Icon,
                       tabContent: (
                       <div>
@@ -725,7 +725,7 @@ export default function PotsPage(props) {
                       ),
                     },
                     {
-                      tabButton: "Column 2",
+                      tabButton: "Ethnographic Eastern Pueblo",
                       tabIcon: Filter2Icon,
                       tabContent: (
                         <div>
@@ -988,7 +988,7 @@ export default function PotsPage(props) {
                       ),
                     },
                     {
-                      tabButton: "Column 3",
+                      tabButton: "Ethnographic Western Pueblo",
                       tabIcon: Filter3Icon,
                       tabContent: (
                       <div>
@@ -1364,7 +1364,7 @@ export default function PotsPage(props) {
                       ),
                     },
                     {
-                      tabButton: "Column 4",
+                      tabButton: "Pre-Hispanic CO Plateau, North Rio Grande",
                       tabIcon: Filter4Icon,
                       tabContent: (
                       <div>
@@ -1680,7 +1680,7 @@ export default function PotsPage(props) {
                         ),
                       },
                       {
-                        tabButton: "Column 5",
+                        tabButton: "Pre-Hispanic and Protohistoric Sonoran Desert, Lower CO River Valley",
                         tabIcon: Filter5Icon,
                         tabContent: (
                         <div>
@@ -1935,7 +1935,7 @@ export default function PotsPage(props) {
                       ),
                     },
                     {
-                      tabButton: "Column 6",
+                      tabButton: "Pre-Hispanic North MX, AZ Mountains",
                       tabIcon: Filter6Icon,
                       tabContent: (
                       <div>

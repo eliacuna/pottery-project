@@ -27,6 +27,10 @@ const navPillsStyle = (theme) => ({
       display: "flex",
       flexWrap: "wrap",
     },
+    [theme.breakpoints.down("sm")]: {
+      display: "flex",
+      flexWrap: "wrap",
+    },
   },
   displayNone: {
     display: "none !important",
@@ -45,11 +49,11 @@ const navPillsStyle = (theme) => ({
     minWidth: "100px",
     textAlign: "center",
     transition: "all .3s",
-    padding: "20px 70px",
+    padding: "10px 40px",
     color: "#555555",
     height: "auto",
     opacity: "1",
-    maxWidth: "100%",
+    maxWidth: "21%",
     margin: "0 30px",
   },
   pillsWithIcons: {
