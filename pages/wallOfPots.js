@@ -249,6 +249,7 @@ export default function PotsPage(props) {
                       tabContent: (
                       <div>
                         <IntroSection1 />
+			<font size="5"><b>Central Mountains</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                               <Pot 
@@ -288,6 +289,7 @@ export default function PotsPage(props) {
                               />
                         </GridItem>
                       </GridContainer>
+			<font size="5"><b>Chihuahuan Desert</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -395,6 +397,7 @@ export default function PotsPage(props) {
                                   />
                         </GridItem>
                       </GridContainer>
+			<font size="5"><b>Chihuahuan Desert</b></font>
                       <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -479,6 +482,7 @@ export default function PotsPage(props) {
                                   />
                         </GridItem>
                       </GridContainer>
+			<font size="5"><b>Central Desert and Chihuahuan Desert</b></font>
                       <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -614,6 +618,7 @@ export default function PotsPage(props) {
                                   />
                         </GridItem>
                       </GridContainer>
+			<font size="5"><b>Central Mountains and Chihuahuan Desert</b></font>
                       <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -730,6 +735,7 @@ export default function PotsPage(props) {
                       tabContent: (
                         <div>
                         <IntroSection2 />
+			<font size="5"><b>Colorado River and Adjacent Uplands</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -758,6 +764,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Colorado River and Sonoran Desert</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -809,6 +816,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Sonoran Desert</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -837,6 +845,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Sonoran Desert</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -916,6 +925,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Sonoran Desert</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -993,6 +1003,7 @@ export default function PotsPage(props) {
                       tabContent: (
                       <div>
                         <IntroSection3 />
+			<font size="5"><b>Colorado Plateau</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -1021,6 +1032,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Colorado Plateau</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -1049,6 +1061,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Colorado Plateau and Rio Grande</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -1185,6 +1198,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Colorado Plateau</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -1265,6 +1279,7 @@ export default function PotsPage(props) {
                                   />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Colorado Plateau and Northern Rio Grande</b></font>
                         <GridContainer justify="center">
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                           <Pot 
@@ -1369,6 +1384,7 @@ export default function PotsPage(props) {
                       tabContent: (
                       <div>
                         <IntroSection4 />
+			<font size="5"><b>Western Pueblo</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1396,6 +1412,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                         </GridContainer>
+			<font size="5"><b>Western Pueblo</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1458,6 +1475,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                           </GridContainer>
+			<font size="5"><b>Western Pueblo</b></font>
                           <GridContainer justify='center'>
                             <GridItem xs={6} sm={3} md={3} lg={4}>
                               <Pot 
@@ -1521,6 +1539,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                           </GridContainer>
+			<font size="5"><b>Western Pueblo</b></font>
                           <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1599,6 +1618,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                           </GridContainer>
+			<font size="5"><b>Western Pueblo</b></font>
                           <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1685,6 +1705,7 @@ export default function PotsPage(props) {
                         tabContent: (
                         <div>
                           <IntroSection5 />
+			<font size="5"><b>Eastern Pueblo</b></font>
                           <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1722,6 +1743,7 @@ export default function PotsPage(props) {
                                     />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Eastern Pueblo</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1782,6 +1804,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                         </GridContainer>
+			<font size="5"><b>Eastern Pueblo</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1868,6 +1891,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                         </GridContainer>
+			<font size="5"><b>Eastern Pueblo</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1940,6 +1964,7 @@ export default function PotsPage(props) {
                       tabContent: (
                       <div>
                         <IntroSection6 />
+			<font size="5"><b>Yuman and O'odham</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -1976,6 +2001,7 @@ export default function PotsPage(props) {
                                     />
                           </GridItem>
                         </GridContainer>
+			<font size="5"><b>Northwest Mexico</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -2039,6 +2065,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                         </GridContainer>
+			<font size="5"><b>Pee Posh and O'odham</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -2158,6 +2185,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                         </GridContainer>
+			<font size="5"><b>Yuman</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
@@ -2269,6 +2297,7 @@ export default function PotsPage(props) {
                                     />
                             </GridItem>
                         </GridContainer>
+			<font size="5"><b>Athabaskan and Eastern Pueblo</b></font>
                         <GridContainer justify='center'>
                           <GridItem xs={6} sm={3} md={3} lg={4}>
                             <Pot 
