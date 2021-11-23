@@ -3,6 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // core components
+import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
@@ -20,7 +21,8 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={10} sm={10} md={16}>
           <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Eastern Pueblo Ethnographic Pottery</h2>
-          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
+          <Button color="primary">Listen to ASM Speaker</Button>
+	  <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           All sixteen Eastern Pueblos, located along the Rio Grande River in northern New Mexico, made decorated or plain 
           pottery in historic times. Different clays, shapes, and decorative techniques are associated with the pottery-making 
           tradition of each community. Seven Pueblos—Cochiti, Kewa (Santo Domingo), Ohkay Owingeh (San Juan), San Ildefonso, 
