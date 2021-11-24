@@ -17,17 +17,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "styles/jss/nextjs-material-kit/pages/makingPots.js";
 
 // Sections for this page
-import PaddleAndAvil  from "pages-sections/MakingPots-Sections/PaddleAndAvil.js";
-import CoilAndScrape  from "pages-sections/MakingPots-Sections/CoilAndScrape.js";
-
-//import Link from "next/link";
-//import Link from '@material-ui/core/Link';
-import Link from "next/link";
-import Button from "components/CustomButtons/Button.js";
-//import {Link} from "react-router-dom";
-
-
-
+import Introduction   from "pages-sections/MakingPots-Sections/Introduction.js";
 
 const useStyles = makeStyles(styles);
 
@@ -56,30 +46,26 @@ export default function MakingPots(props) {
         {...rest}
       />
 
-{/*target="_blank"*/} 
-
       <Parallax small filter responsive image="/img/exhibit.jpeg">
         <div className={classes.container}>
           <GridContainer>
-
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title} style={{zIndex: 1}}>Making Pots</h1>
-              <h5 className={classes.title} style={{zIndex: 1}}>Constructing Pots</h5>
-              <br/>
+              <h5 className={classes.title} style={{zIndex: 1}}>Firing</h5>
+              <br />
             </GridItem>
-            
           </GridContainer>
         </div>
       </Parallax>
-
-        <div className={classNames(classes.main, classes.mainRaised)}>
+      <div className={classNames(classes.main, classes.mainRaised)}>
             <GridContainer justify="center"> 
-                <a href="/makingPots">hi</a>
-                <PaddleAndAvil/>
-                <CoilAndScrape/>
+              <GridItem>
+              <h2 className={classes.cardTitle}>Preparing to Fire</h2> <br/>
+              <h2 className={classes.cardTitle}>Oxidation</h2> <br/>
+              <h2 className={classes.cardTitle}>Reduction</h2>
+              </GridItem>
             </GridContainer>
-        </div>
-
+          </div>
       <Footer />
     </div>
   );

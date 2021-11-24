@@ -51,6 +51,7 @@ export default function MakingPots(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title} style={{zIndex: 1}}>Making Pots</h1>
+              <h5 className={classes.title} style={{zIndex: 1}}>Decorating Pots</h5>
               <br />
             </GridItem>
           </GridContainer>

@@ -58,7 +58,7 @@ const makingPotsStyle = {
     marginTop: "30px",
     minHeight: "32px",
     color: "#FFFFFF",
-    textDecoration: "none",
+    //textDecoration: "none",
   },
  // socials: {
   //  marginTop: "0",

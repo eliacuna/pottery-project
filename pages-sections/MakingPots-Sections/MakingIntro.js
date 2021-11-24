@@ -22,12 +22,13 @@ export default function ProductSection() {
           <h2 className={classes.title} style={{color:'black', fontFamily:'serif'}}>Making Pottery</h2>
         </GridItem>
         <GridItem xs={12} sm={12} md={8}>
-        <img src="img/c-28199_scan1.jpg" style={{height:'60%', width:'60%'}} />
+        <img src="img/c-28199_scan1.jpg" style={{height:'60%', width:'60%'}} /><br/>
+        Helga Teiwes, photographer, 1992, C-28203
         <h4 className={classes.description} style={{color:'black', fontFamily:'serif', textAlign:'left', marginLeft:'5%'}}> <br />
           Pottery making starts by collecting natural clay. Karen Charley (Hopi) collects clay from above
           Beaver Lake near Keams Canyon. Note the deep undercutting made by previous potters. Karen
           tasted this clay and found it good. This is “rich clay” which does not need temper. Helga Teiwes,
-          photographer, 1992, C-28203<br /><br />
+          photographer, 1992, C-28203<br />
           </h4>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>
