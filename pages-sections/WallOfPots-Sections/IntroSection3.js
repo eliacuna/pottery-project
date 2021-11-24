@@ -3,6 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // core components
+import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
@@ -20,7 +21,8 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={10} sm={10} md={16}>
           <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Western Pueblo Ethnographic Pottery</h2>
-          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
+          <Button color="primary">Listen to ASM Speaker</Button>
+	  <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           Western Pueblo people—the Hopi, Zuni, Acoma, and Laguna—live on the high plateaus and mesas of northeastern Arizona 
           and northwestern New Mexico. Classic Hopi pottery has a distinct yellow cast from the type of clay used and the firing 
           conditions employed. Zuni pottery possesses a white base color and is known for its deer “heartline” and medallion 

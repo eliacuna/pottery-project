@@ -3,6 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // core components
+import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
@@ -20,7 +21,8 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={10} sm={10} md={16}>
           <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Pre-Hispanic Pottery from the Colorado Plateau and the Northern Rio Grande</h2>
-          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
+          <Button color="primary">Listen to ASM Speaker</Button>
+	  <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           Pottery making on the Colorado Plateau, as in the central mountains, began by the first or second century CE. A 
           variety of clays suitable for making pottery are available there. Iron-bearing clays were used by potters who fired 
           their pots in reducing (oxygen-poor) atmospheres. These pots are typically gray. Vessels were sometimes constructed of 

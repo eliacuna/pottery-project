@@ -3,6 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // core components
+import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
@@ -20,7 +21,8 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={10} sm={10} md={16}>
           <h2 className={classes.title} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>Pre-Hispanic Pottery from Northern Mexico and the Arizona Mountains</h2>
-          <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
+          <Button color="primary">Listen to ASM Speaker</Button>
+	  <h4 className={classes.description} style={{textAlign:'left', color:'black', fontFamily:'serif'}}>
           Pottery making in the mountains of east-central Arizona and west-central New Mexico, and northwest Chihuahua began by 
           the first or second century CE. Clays in these regions are typically rich in iron, and potters there favored firing 
           their pots in oxidizing (oxygen-rich) atmospheres. Vessels were constructed from clays that, when fired, range in 
